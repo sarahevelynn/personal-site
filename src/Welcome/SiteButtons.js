@@ -22,10 +22,10 @@ export class SiteButtons extends React.Component {
         <div id="squareTwo">
           <h2 id="homeButton"> What I Do </h2>
           <p>
-            I specialize in creating the content that makes your business run. I have a long history of helping businesses out with their digital content creation (blogging, social media, deliverables) and market positioning (research, planning and implimentation).
+            I specialize in creating the content that makes businesses run. This means helping businesses with their digital content creation (blogging, social media, deliverables) and market positioning (research, planning and implimentation).
             <br />
             <br />
-            I recently graduated from Galvanize, a six-month full-stack web immersive program. I am now looking to dive into the development world because I have been lucky enough to find my passion.
+            Recently, I graduated from Galvanize, a six-month full-stack web immersive program. Now I am looking to dive into the world of development and for an opportunity to learn from an experienced developer. 
           </p>
           <div id="resume">
             <a id="navagateButton" href={SarahEvelynnJohnsonResume} download="SarahEvelynnJohnsonResume">

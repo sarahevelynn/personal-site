@@ -87,11 +87,12 @@ header {
 #navagateButton {
   display: flex;
   background-color: #84afae;
-  width: 10rem;
+  width: 60%;
   height: 3rem;
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-weight: 600;
 }
 
 #webProjects {
@@ -100,6 +101,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+  width: 100%
 }
 
 #projectsSection {

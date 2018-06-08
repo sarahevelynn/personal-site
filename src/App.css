@@ -43,7 +43,7 @@ header {
 }
 #tagline {
   font-size: 2rem;
-  color: #16A085  ;
+  color: #16A085;
   display:flex;
   align-items: center;
   justify-content: flex-end;

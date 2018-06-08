@@ -10,10 +10,10 @@ export class SiteButtons extends React.Component {
         <div id="squareOne">
           <h2 id="homeButton"> Welcome-Bienvenido! </h2>
           <p>
-            Making a difference with integrity is one of the most important foundations I build my life from. I am a native Coloradan with a deep love for the outdoors and the startup community.
+            Making a difference with integrity is what I build my life around. I am a native Coloradan with a deep love for the outdoors and the startup community.
             <br/>
             <br/>
-            When I am not at a startup event, coding or skiing, you can usually find me at a cafe or brewery with my dog, Benedict (named after Benedict Cumberbatch, of course).
+            When I am not at a startup event, coding or skiing, usually you can find me at a cafe or brewery with my dog, Benedict (named after Benedict Cumberbatch, of course).
           </p>
             <div id="navagateButton">
             <a href={"mailto:sarah@5280startupsolutions.co"} target="_blank">Contact Me</a>

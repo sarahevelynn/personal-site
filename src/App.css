@@ -27,27 +27,21 @@ header {
   justify-content: space-between;
   flex-direction: row;
   font-family: DINAlternateBold, sans-serif;
-}
-.logo {
-  height: 11rem;
-  padding: 1rem 0 0 1rem;
+  background-color: rgba(171, 211, 203, 0.4);
 }
 
-#name{
-  font-size: 2.5rem;
-  color: #48C9B0;
-  display:flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 1rem;
+.logo {
+  height: 8rem;
+  padding: 1rem 0 0 1rem;
+  opacity: 1
 }
-#tagline {
-  font-size: 2rem;
-  color: #16A085;
-  display:flex;
-  align-items: center;
-  justify-content: flex-end;
+
+nav {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
   padding-right: 1rem;
+  align-items: flex-end;
 }
 
 #sarahPhoto {
@@ -124,6 +118,31 @@ header {
 }
 
 .socialPhoto {
-  width: 70px;
+  width: 40px;
   padding: 0.5rem 3rem 0.5rem 1rem;
+}
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+}
+
+#navItem {
+  padding: 0 1rem;
+  color: #bce0e5;
+  font-family: DINAlternateRegular, sans-serif;
+}
+#navItem:hover {
+  color: #9cbabc
+}
+
+#introInfo {
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem;
+    background-color: rgba(171, 211, 203, 0.4);
+    width: 50%
 }

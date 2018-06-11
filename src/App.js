@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
 import Header from "./Header/Header.js";
 import Footer from "./Footer/Footer.js";
-import Homepage from "./Welcome/Index.js"
+import Section from "./frontPage/Index.js"
 
 
 class App extends Component {
@@ -12,8 +12,7 @@ class App extends Component {
       <div className="App">
         <Router>
           <div className="App-content">
-            <Header />
-            <Route exact path="/" component={Homepage} />
+            <Route exact path="/" component={Section} />
             <Footer />
           </div>
       </Router>

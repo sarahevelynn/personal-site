@@ -11,8 +11,31 @@ export default function Header() {
         </Link>
       </div>
       <div id="navBar">
-      <h2 id="name"> SarahEvelynn Johnson </h2>
-        <h3 id="tagline">Startup Junkie || Full-Stack Developer</h3>
+      <nav>
+        <Link to="/">
+          <h2 id="navItem">Home</h2>
+        </Link>
+        <h2>::</h2>
+        <Link to="/about">
+          <h2 id="navItem">My Work</h2>
+        </Link>
+        <h2>::</h2>
+        <Link to="/services">
+          <h2 id="navItem">About Me</h2>
+        </Link>
+        <h2>::</h2>
+        <Link to="/contact">
+          <h2 id="navItem">Contact</h2>
+        </Link>
+        <h2>::</h2>
+        <Link to="/writings">
+          <h2 id="navItem">Writings</h2>
+        </Link>
+        <h2>::</h2>
+        <Link to="/photography">
+          <h2 id="navItem">Photographs</h2>
+        </Link>
+      </nav>
       </div>
     </header>
   );

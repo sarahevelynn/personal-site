@@ -139,9 +139,9 @@ nav {
 #introInfo {
   display:flex;
   flex-direction: column;
-  margin-top: 4rem;
+  margin-top: 3.5rem;
   margin-left: 13rem;
   margin-right: 13rem;
-    background-color: rgba(32, 107, 92, 0.4);
     color: rgba(211, 227, 224, 1.0);
+    background-color: rgba(171, 211, 203, 0.3);
 }

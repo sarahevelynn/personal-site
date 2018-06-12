@@ -13,6 +13,7 @@
   text-decoration: none;
   font-family: DINAlternateRegular, sans-serif;
 }
+
 a {
   color: #073d3c;
   text-decoration: none;
@@ -33,7 +34,6 @@ header {
 .logo {
   height: 8rem;
   padding: 1rem 0 0 1rem;
-  opacity: 1
 }
 
 nav {
@@ -44,8 +44,45 @@ nav {
   align-items: flex-end;
 }
 
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  height:50px;
+  background-color: rgba(171, 211, 203, 0.3);
+}
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+}
+
+#navItem {
+  padding: 0 1rem;
+  color: #9cbabc;
+  font-family: DINAlternateRegular, sans-serif;
+}
+#navItem:hover {
+  color: #bce0e5;
+
+}
+
+#introInfo {
+  display:flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  height: 77%;
+
+    color: #EEFCFA;
+    background-color: rgba(171, 211, 203, 0.3);
+}
+#name {
+  font-size: 4rem;
+}
+
 #sarahPhoto {
-  width: 100%
+  width: 76%
 }
 
 
@@ -117,31 +154,13 @@ nav {
   padding: 1rem;
 }
 
+#copy{
+  padding-left: 1rem
+}
+#social{
+  padding-right: 1rem
+}
 .socialPhoto {
   width: 40px;
-  padding: 0.5rem 3rem 0.5rem 1rem;
-}
-
-#navBar {
-  display: flex;
-  flex-direction: row;
-}
-
-#navItem {
-  padding: 0 1rem;
-  color: #bce0e5;
-  font-family: DINAlternateRegular, sans-serif;
-}
-#navItem:hover {
-  color: #9cbabc
-}
-
-#introInfo {
-  display:flex;
-  flex-direction: column;
-  margin-top: 3.5rem;
-  margin-left: 13rem;
-  margin-right: 13rem;
-    color: rgba(211, 227, 224, 1.0);
-    background-color: rgba(171, 211, 203, 0.3);
+  padding-right: 0.5rem
 }

@@ -16,11 +16,11 @@ export default function Header() {
           <h2 id="navItem">Home</h2>
         </Link>
         <h2>::</h2>
-        <Link to="/about">
+        <Link to="/myWork">
           <h2 id="navItem">My Work</h2>
         </Link>
         <h2>::</h2>
-        <Link to="/services">
+        <Link to="/about">
           <h2 id="navItem">About Me</h2>
         </Link>
         <h2>::</h2>

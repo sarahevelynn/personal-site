@@ -5,7 +5,7 @@ import Header from "../Header/Header.js";
 
 const divStyle = {
   width: "100%",
-  height: "600px",
+  height: "650px",
   backgroundImage: `url(${benniComp})`,
   backgroundSize: "cover"
 };
@@ -16,7 +16,7 @@ export default class Section extends React.Component {
       <div className="cComponent" style={divStyle}>
         <Header />
         <div id="introInfo">
-          <h1> SarahEvelynn Johnson </h1>
+          <h1 id="name"> SarahEvelynn Johnson </h1>
           <h2> || Startup Junkie || </h2>
           <h2> || Full-Stack Web Developer || </h2>
           <h2> || Digital Marketing & Content Creation || </h2>

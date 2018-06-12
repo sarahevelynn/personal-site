@@ -90,7 +90,7 @@ footer{
 }
 
 #sarahPhoto {
-  width: 76%
+  width: 98%
 }
 
 
@@ -101,37 +101,38 @@ footer{
   justify-content: center;
   align-items: center;
   background-color: #FCF3CF;
-  width:100%
 }
 
-#squareOne {
+#outterSquare {
   padding: 1rem;
-  width: 33%;
-  background-color: #76D7C4;
+  width: 30%;
+  background-color: #b3e1e5;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
 }
 
-#squareTwo {
+#innerSquare {
   padding: 1rem;
-  width: 33%;
-  background-color: #A3E4D7;
+  width: 30%;
+  background-color: #ccf1f2;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
 }
-
-#squareThree {
-  padding: 1rem;
-  width: 33%;
-  background-color: #76D7C4;
-}
-
 
 #navagateButton {
   display: flex;
   background-color: #84afae;
-  width: 60%;
   height: 3rem;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-weight: 600;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #webProjects {

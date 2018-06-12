@@ -19,8 +19,9 @@ export default class AboutMe extends React.Component {
               <br />
               <br />
               When I am not at a startup event, coding or skiing, usually you
-              can find me at a cafe or brewery with my dog, Benedict (named
-              after Benedict Cumberbatch, of course).
+              can find me at a cafe or brewery with my dog, Benedict.
+              <br />
+              (named after Benedict Cumberbatch)
             </p>
             <div id="navagateButton">
               <a href={"mailto:sarah@5280startupsolutions.co"} target="_blank">
@@ -32,14 +33,18 @@ export default class AboutMe extends React.Component {
             <h2 id="homeButton"> What I Do </h2>
             <p>
               I specialize in creating the content that makes businesses run.
-              This means helping businesses with their digital content creation
-              (blogging, social media, deliverables) and market positioning
-              (research, planning and implimentation).
+              <br />
+              :: Digital Content Creation ::
+              <br />
+              Blogging, Social Media, Deliverables
+              <br />
+              :: Market Positioning ::
+              <br /> Research, Planning and Implimentation
               <br />
               <br />
-              Recently, I graduated from Galvanize, a six-month full-stack web
+              Recently, I graduated from <a href="https://www.galvanize.com/denver-platte/web-development" target="_blank"> Galvanize</a>, a six-month full-stack web
               immersive program. Now I am looking to dive into the world of
-              development and for an opportunity to learn from an experienced
+              development. I am actively seeking an opportunity to learn from an experienced
               developer.
             </p>
             <div id="resume">

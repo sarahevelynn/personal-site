@@ -28,7 +28,7 @@ header {
   justify-content: space-between;
   flex-direction: row;
   font-family: DINAlternateBold, sans-serif;
-  background-color: rgba(171, 211, 203, 0.4);
+  background-color: rgba(87, 136, 129, 0.4);
 }
 
 .logo {
@@ -58,14 +58,22 @@ footer{
   flex-direction: row;
 }
 
+#navItem1 {
+  padding: 0 1rem;
+  color: #bce0e5;
+  font-family: DINAlternateRegular, sans-serif;
+}
+#navItem1:hover {
+  color: #9cbabc;
+}
+
 #navItem {
   padding: 0 1rem;
-  color: #9cbabc;
+  color: #578881;
   font-family: DINAlternateRegular, sans-serif;
 }
 #navItem:hover {
-  color: #bce0e5;
-
+  color: #7C9591;
 }
 
 #introInfo {

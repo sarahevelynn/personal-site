@@ -15,8 +15,6 @@ export class Projects extends React.Component {
   render() {
     return (
       <div id="projects">
-        <h1 id="projectsSection"> See Some of My Work </h1>
-
         <div id="webProjects">
           <div id="projectTile">
             <img

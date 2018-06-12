@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import benniComp from "./assets/benniComp.JPG";
-import Header from "../Header/Header.js";
+import FrontHeader from "../Header/FrontHeader.js";
 
 const divStyle = {
   width: "100%",
@@ -14,7 +14,7 @@ export default class Section extends React.Component {
   render() {
     return (
       <div className="cComponent" style={divStyle}>
-        <Header />
+        <FrontHeader />
         <div id="introInfo">
           <h1 id="name"> SarahEvelynn Johnson </h1>
           <h2> || Startup Junkie || </h2>

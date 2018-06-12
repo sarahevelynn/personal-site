@@ -8,7 +8,7 @@ export default class Contact extends React.Component {
       <div>
       <Header />
         <h2 id="formTitle">Contact Me</h2>
-        <form id="contactForm" onSubmit={"mailto:sarah@5280startupsolutions.co"}>
+        <form id="contactForm" onSubmit={this.props.getNewContact}>
           <label htmlFor="Name">Name:</label>
           <input type="text" name="Name" />
           <label htmlFor="Email">Email:</label>

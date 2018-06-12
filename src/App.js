@@ -6,6 +6,7 @@ import Footer from "./Footer/Footer.js";
 import Section from "./frontPage/Index.js";
 import myWork from "./Work/Index.js";
 import AboutMe from "./About/AboutMe.js";
+import Contact from "./Contact/Index.js";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
             <Route exact path="/" component={Section} />
             <Route exact path="/myWork" component={myWork} />
             <Route exact path="/about" component={AboutMe} />
+            <Route exact path="/contact" component={Contact} />
             <Footer />
           </div>
         </Router>

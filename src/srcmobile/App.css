@@ -93,9 +93,12 @@ select {
 }
 
 #navItem {
+  display:flex;
+  flex-direction: column;
   padding: 0 1rem;
-  color: #578881;
+  color: #bce0e5;
   font-family: DINAlternateRegular, sans-serif;
+  font-size: 1.2rem;
 }
 #navItem:hover {
   color: #7c9591;
@@ -178,6 +181,11 @@ select {
 #projectIcon {
   width: 86%;
   padding: 1rem;
+}
+
+.mobileImage{
+  width:90%;
+  padding:0.5rem
 }
 
 #contactForm {

@@ -7,6 +7,7 @@ import Section from "./frontPage/Index.js";
 import myWork from "./Work/Index.js";
 import AboutMe from "./About/AboutMe.js";
 import Contact from "./Contact/Index.js";
+import Photographs from "./Photographs/Index";
 
 export default class Mobile extends React.Component {
   render() {
@@ -21,6 +22,7 @@ export default class Mobile extends React.Component {
               path="/contact"
               render={() => <Contact getNewContact={this.getNewContact} />}
             />
+            <Route path="/photography" component={Photographs} />
             <Footer />
           </div>
         </Router>

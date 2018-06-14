@@ -178,6 +178,21 @@ select {
   padding: 1rem;
 }
 
+#images{
+  dislplay:flex;
+}
+
+#imageContainer{
+  display:flex;
+  flex-direction: row;
+}
+
+.desktopPhotos{
+  width:30%;
+  height:30%;
+  margin:1rem
+}
+
 #contactForm {
   background-color: #fcf3cf;
   height: 433px;

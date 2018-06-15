@@ -4,7 +4,7 @@ import Header from "./Header/Header.js";
 import Footer from "./Footer/Footer.js";
 import Section from "./frontPage/Index.js";
 import myWork from "./Work/Index.js";
-import AboutMe from "./About/AboutMe.js";
+import AboutMe from "./About/Index.js";
 import Contact from "./Contact/Index.js";
 import Photographs from "./Photographs/Index";
 

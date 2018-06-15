@@ -5,7 +5,7 @@ import FrontHeader from "../Header/FrontHeader.js";
 
 const divStyle = {
   width: "100%",
-  height: "650px",
+  height: "auto",
   backgroundImage: `url(${benniComp})`,
   backgroundSize: "cover"
 };
@@ -13,13 +13,15 @@ const divStyle = {
 export default class Section extends React.Component {
   render() {
     return (
-      <div style={divStyle}>
-        <FrontHeader />
-        <div id="Info">
-          <h1 id="name"> SarahEvelynn Johnson </h1>
-          <h2> || Startup Junkie || </h2>
-          <h2> || Full-Stack Web Developer || </h2>
-          <h2> || Digital Marketing & Content Creation || </h2>
+      <div>
+        <div style={divStyle}>
+          <FrontHeader />
+          <div id="Info">
+            <h1 id="SeJ"> SarahEvelynn Johnson </h1>
+            <h2> || Startup Junkie || </h2>
+            <h2> || Full-Stack Web Developer || </h2>
+            <h2> || Digital Marketing & Content Creation || </h2>
+          </div>
         </div>
       </div>
     );

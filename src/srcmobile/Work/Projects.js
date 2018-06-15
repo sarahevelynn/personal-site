@@ -41,6 +41,8 @@ export class Projects extends React.Component {
               Tracktivism
             </a>
           </div>
+          </div>
+          <div id="webProjects">
 
           <div id="projectTile">
             <img id="projectIcon" src={socialCloudLogo} alt="Intern Connect" />
@@ -91,6 +93,8 @@ export class Projects extends React.Component {
               DPT
             </a>
           </div>
+          </div>
+          <div id="webProjects">
 
           <div id="projectTile">
             <img id="projectIcon" src={GoldCalLogo} alt="Intern Connect" />

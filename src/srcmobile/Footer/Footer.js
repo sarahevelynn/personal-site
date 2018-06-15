@@ -7,12 +7,19 @@ import linkedIn from "./assets/linkedIn.png";
 export default function Footer() {
   return (
     <footer>
-      <p id="copy">&copy; 2018, SarahEvelynn Johnson</p>
-      <div id="social">
-      <a href={"mailto:sarah@5280startupsolutions.co"} target="_blank"><img src={email} className="socialPhoto" alt="email us" /></a>
-      <a href={"https://github.com/sarahevelynn"} target="_blank"><img src={github} className="socialPhoto" alt="github" /></a>
-      <a href={"https://www.linkedin.com/in/sarahevelynn/"} target="_blank"><img src={linkedIn} className="socialPhoto" alt="linkedIn" /></a>
-      <a href={"https://twitter.com/sarah_evelynn"} target="_blank"><img src={twitter} className="socialPhoto" alt="twitter" /></a>
+        <div id="social">
+          <a href={"mailto:sarah@5280startupsolutions.co"} target="_blank">
+            <img src={email} className="socialPhotos" alt="email us" />
+          </a>
+          <a href={"https://github.com/sarahevelynn"} target="_blank">
+            <img src={github} className="socialPhotos" alt="github" />
+          </a>
+          <a href={"https://www.linkedin.com/in/sarahevelynn/"} target="_blank">
+            <img src={linkedIn} className="socialPhotos" alt="linkedIn" />
+          </a>
+          <a href={"https://twitter.com/sarah_evelynn"} target="_blank">
+            <img src={twitter} className="socialPhotos" alt="twitter" />
+          </a>
       </div>
     </footer>
   );

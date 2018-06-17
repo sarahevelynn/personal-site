@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import benniComp from "./assets/benniComp.JPG";
+import Benni from "./Benni.JPG";
 import FrontHeader from "../Header/FrontHeader";
 
 var sectionStyle = {
-  backgroundImage: `url(${benniComp})`,
+  backgroundImage: `url(${Benni})`,
   backgroundSize: "cover",
-  height:"100%"
 };
 
 export default class Welcome extends React.Component {

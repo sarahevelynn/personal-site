@@ -10,24 +10,22 @@ import Tablet from "./srctablet/Index.js";
 
 var baseURL = "https://sarahevelynnjohnson.herokuapp.com/";
 
-
 class App extends Component {
- render() {
- return (
- <div>
- <DesktopBreakpoint>
- <Desktop />
-</DesktopBreakpoint>
-<TabletBreakpoint>
- <Tablet />
- </TabletBreakpoint>
-<PhoneBreakpoint>
-<Mobile />
- </PhoneBreakpoint>
- </div>
- );
- }
+  render() {
+    return (
+      <div id="App">
+        <DesktopBreakpoint>
+          <Desktop />
+        </DesktopBreakpoint>
+        <TabletBreakpoint>
+          <Tablet />
+        </TabletBreakpoint>
+        <PhoneBreakpoint>
+          <Mobile />
+        </PhoneBreakpoint>
+      </div>
+    );
+  }
 }
-
 
 export default App;

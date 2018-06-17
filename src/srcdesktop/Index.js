@@ -7,7 +7,7 @@ import myWork from "./Work/Index.js";
 import AboutMe from "./About/Index.js";
 import Contact from "./Contact/Index.js";
 import Photographs from "./Photographs/Index.js";
-import Welcome from "./WelcomePage/Index.js";
+import Writing from "./Writing/Index.js";
 
 var baseURL = "https://sarahevelynnjohnson.herokuapp.com/";
 
@@ -73,7 +73,7 @@ export default class Desktop extends React.Component {
               render={() => <Contact getNewContact={this.getNewContact} />}
             />
             <Route path="/photography" component={Photographs} />
-            <Route path="/writings" component={Welcome} />
+            <Route path="/writings" component={Writing} />
             <Footer />
           </div>
         </Router>

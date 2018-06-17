@@ -5,6 +5,8 @@ import Header from "../Header/Header.js";
 export default class Writing extends React.Component {
   render() {
     return (
+      <div>
+      </div>
     );
   }
 }

@@ -52,7 +52,9 @@ export class Projects extends React.Component {
               Social Cloud
             </a>
           </div>
+        </div>
 
+        <div id="webProjects">
           <div id="projectTile">
             <img
               id="projectIcon"
@@ -67,9 +69,7 @@ export class Projects extends React.Component {
               Intern Connect
             </a>
           </div>
-        </div>
 
-        <div id="webProjects">
           <div id="projectTile">
             <img id="projectIcon" src={BillTrack50Logo} alt="Intern Connect" />
             <a
@@ -91,7 +91,9 @@ export class Projects extends React.Component {
               DPT
             </a>
           </div>
+        </div>
 
+        <div id="webProjects">
           <div id="projectTile">
             <img id="projectIcon" src={GoldCalLogo} alt="Intern Connect" />
             <a id="projectTitle" href={GC} download="Gold Calendar Collateral">

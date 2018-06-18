@@ -19,9 +19,6 @@ export default function FrontHeader() {
           <h2 id="navItem1">About Me</h2>
         </Link>
         <a href={"mailto:sarah@5280startupsolutions.co"} ><h2 id="navItem1">Contact Me</h2></a>
-        <Link to="/photography">
-          <h2 id="navItem1">Photos</h2>
-        </Link>
       </nav>
       </div>
     </header>

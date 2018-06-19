@@ -17,9 +17,11 @@ class App extends Component {
         <DesktopBreakpoint>
           <Desktop />
         </DesktopBreakpoint>
+
         <TabletBreakpoint>
           <Tablet />
         </TabletBreakpoint>
+        
         <PhoneBreakpoint>
           <Mobile />
         </PhoneBreakpoint>

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 const breakpoints = {
  desktop: "(min-width: 1025px)",
  tablet: "(min-width: 768px) and (max-width: 1024px)",
- phone: "(max-width: 768px)",
+ phone: "(max-width: 767px)",
 };
 const string = React.PropTypes;
 const object = React.PropTypes;

@@ -36,7 +36,7 @@ export default class myWork extends React.Component {
                 Click to download a video demo of my Startup Week Navigator
                 React Native App aimed at improving event choice and networking.{" "}
               </h3>
-              <h4> React Native | AWS | Node | Express | Knex | PostgreSQL </h4>
+              <h4 id="workDetails"> React Native | AWS | Node | Express | Knex | PostgreSQL </h4>
             </div>
 
             <div id="projectTile">
@@ -62,7 +62,7 @@ export default class myWork extends React.Component {
                 Click to browse my company site and see what we are up to and
                 who works with us. Written in React.js
               </h3>
-              <h4> React | Node | Express | Knex | PostgreSQL </h4>
+              <h4 id="workDetails"> React | Node | Express | Knex | PostgreSQL </h4>
             </div>
 
             <div id="projectTile">
@@ -89,7 +89,7 @@ export default class myWork extends React.Component {
                 representation of social trends to see what is going on around
                 the country. Available as a Chrome extension!
               </h3>
-              <h4>
+              <h4 id="workDetails">
                 {" "}
                 React | D3 | Twitter API | Node | Express | Knex | PostgreSQL{" "}
               </h4>
@@ -116,7 +116,7 @@ export default class myWork extends React.Component {
                 Click to view an activism tracking app where you can track
                 legislaiton that matters to you and log "Resistance Points".
               </h3>
-              <h4> React | Node | Express | Knex | PostgreSQL </h4>
+              <h4 id="workDetails"> React | Node | Express | Knex | PostgreSQL </h4>
             </div>
 
             <div id="projectTile">
@@ -143,7 +143,7 @@ export default class myWork extends React.Component {
                 in your details and see who in the startup world is available to
                 work with you.
               </h3>
-              <h4> HTML5 | CSS3 | ES6 | Node | Express </h4>
+              <h4 id="workDetails"> HTML5 | CSS3 | ES6 | Node | Express </h4>
             </div>
 
             <div id="projectTile">
@@ -166,7 +166,7 @@ export default class myWork extends React.Component {
                 in your details and see who in the startup world is available to
                 work with you.
               </h3>
-              <h4>
+              <h4 id="workDetails">
                 {" "}
                 6 Years | 112 Articles | 20,000 Reads | 3.5 Minute Average Time
                 Spent{" "}
@@ -198,7 +198,7 @@ export default class myWork extends React.Component {
                 Click to checkout an amazing physical therapy business offering
                 Functional Manual Therapy (FMT).
               </h3>
-              <h4>
+              <h4 id="workDetails">
                 {" "}
                 Logo Design | Branding | SquareSpace Design | Deliverables{" "}
               </h4>
@@ -216,7 +216,7 @@ export default class myWork extends React.Component {
                 industry to streamline their availability through a custom
                 widget.
               </h3>
-              <h4> Development | Branding | Collateral | Digital Marketing </h4>
+              <h4 id="workDetails"> Development | Branding | Collateral | Digital Marketing </h4>
             </div>
 
             <div id="projectTile">
@@ -238,7 +238,7 @@ export default class myWork extends React.Component {
                 Click to discover an amazing concious captial company seeking to
                 rebuild from addictions, homelessness and incarceration.
               </h3>
-              <h4>
+              <h4 id="workDetails">
                 {" "}
                 Deliverables | Branding | Collateral | Digital Marketing{" "}
               </h4>

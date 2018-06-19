@@ -226,6 +226,10 @@ footer {
   color: #073d3c;
 }
 
+#workDetails{
+  text-align: center;
+}
+
 .mobileImage {
   width: 90%;
   padding: 0.5rem;

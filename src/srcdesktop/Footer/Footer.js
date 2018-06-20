@@ -21,7 +21,7 @@ export default function Footer() {
           href={SarahEvelynnJohnsonResume}
           download="SarahEvelynnJohnsonResume"
         >
-          <img src={Resume} className="socialPhotos" alt="Resume" />
+          <img src={Resume} className="socialPhoto" alt="Resume" />
         </a>
 
         <a href={"https://www.linkedin.com/in/sarahevelynn/"} target="_blank">

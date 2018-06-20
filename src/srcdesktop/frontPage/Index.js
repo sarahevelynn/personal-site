@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import benniComp from "./assets/benniComp.JPG";
 import FrontHeader from "../Header/FrontHeader";
+import SarahEvelynnJohnsonResume from "./assets/SarahEvelynnJohnsonResume.pdf";
 
 var sectionStyle = {
   backgroundImage: `url(${benniComp})`,
@@ -22,6 +23,15 @@ export default class Welcome extends React.Component {
           <h2> || Startup Junkie || </h2>
           <h2> || Full-Stack Web Developer || </h2>
           <h2> || Digital Marketing & Content Creation || </h2>
+        </div>
+        <div id="resume">
+          <a
+            id="navagateButton"
+            href={SarahEvelynnJohnsonResume}
+            download="SarahEvelynnJohnsonResume"
+          >
+            Download my Resume
+          </a>
         </div>
         </div>
       </section>

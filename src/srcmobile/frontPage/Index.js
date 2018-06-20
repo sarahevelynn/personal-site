@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import benniComp from "./assets/benniComp.JPG";
 import FrontHeader from "../Header/FrontHeader.js";
+import SarahEvelynnJohnsonResume from "./assets/SarahEvelynnJohnsonResume.pdf";
 
 const divStyle = {
   width: "100%",
@@ -21,6 +22,15 @@ export default class Section extends React.Component {
             <h2> || Startup Junkie || </h2>
             <h2> || Full-Stack Web Developer || </h2>
             <h2> || Digital Marketing & Content Creation || </h2>
+          </div>
+          <div id="resume">
+            <a
+              id="navagateButton"
+              href={SarahEvelynnJohnsonResume}
+              download="SarahEvelynnJohnsonResume"
+            >
+              Download my Resume
+            </a>
           </div>
         </div>
       </div>

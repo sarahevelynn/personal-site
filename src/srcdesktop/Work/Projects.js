@@ -159,9 +159,7 @@ export class Projects extends React.Component {
                 BillTrack 50
               </a>
               <h3 id="workDescription">
-                Click to "apply" for an intern or internship and be matched! Put
-                in your details and see who in the startup world is available to
-                work with you.
+              Click to read my blogs from over the years covering legislative movements, social issues and how to use an amazing legislation and regulation tracking platform.
               </h3>
               <h4 id="workDetails">
                 {" "}

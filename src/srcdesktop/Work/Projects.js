@@ -57,7 +57,7 @@ export class Projects extends React.Component {
               </a>
               <h3 id="workDescription">
                 Click to browse my company site and see what we are up to and
-                who works with us. Written in React.js
+                who works with us. 
               </h3>
               <h4 id="workDetails"> React | Node | Express | Knex | PostgreSQL </h4>
             </div>
@@ -161,9 +161,8 @@ export class Projects extends React.Component {
               Click to read my blogs from over the years covering legislative movements, social issues and how to use an amazing legislation and regulation tracking platform.
               </h3>
               <h4 id="workDetails">
-                {" "}
                 6 Years | 112 Articles | 20,000 Reads | 3.5 Minute Average Time
-                Spent{" "}
+                Spent
               </h4>
             </div>
           </div>
@@ -193,7 +192,6 @@ export class Projects extends React.Component {
                 Functional Manual Therapy (FMT).
               </h3>
               <h4 id="workDetails">
-                {" "}
                 Logo Design | Branding | SquareSpace Design | Deliverables{" "}
               </h4>
             </div>

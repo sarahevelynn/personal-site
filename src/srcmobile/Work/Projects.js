@@ -54,7 +54,7 @@ export class Projects extends React.Component {
           <h3 id="workDescription">
             {" "}
             Click to browse my company site and see what we are up to and who
-            works with us. Written in React.js
+            works with us. 
           </h3>
           <h4 id="workDetails"> React | Node | Express | Knex | PostgreSQL </h4>
         </div>

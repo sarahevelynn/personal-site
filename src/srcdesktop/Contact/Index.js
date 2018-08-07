@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Header from "../Header/Header.js";
+import Footer from "../Footer/Footer.js";
 
 export default class Contact extends React.Component {
   render() {
@@ -29,6 +30,7 @@ export default class Contact extends React.Component {
           </select>
           <input type="submit" id="submitButton" value="Submit" />
         </form>
+        <Footer />
       </div>
     );
   }

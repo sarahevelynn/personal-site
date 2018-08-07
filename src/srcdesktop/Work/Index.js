@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Header from "../Header/Header.js";
 import SarahEvelynnJohnsonResume from "./assets/SarahEvelynnJohnsonResume.pdf";
 import { Projects } from "./Projects";
+import Footer from "../Footer/Footer.js";
 
 export default class myWork extends React.Component {
   render() {
@@ -19,6 +20,7 @@ export default class myWork extends React.Component {
           </a>
         </div>
         <Projects />
+        <Footer />
       </div>
     );
   }

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import SarahEvelynnJohnsonResume from "./assets/SarahEvelynnJohnsonResume.pdf";
 import sej from "./assets/sej.jpg";
 import Header from "../Header/Header.js";
+import Footer from "../Footer/Footer.js";
 
 export default class AboutMe extends React.Component {
   render() {

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Header from "./Header/Header.js";
-import Footer from "./Footer/Footer.js";
 import Section from "./frontPage/Index.js";
 import myWork from "./Work/Index.js";
 import AboutMe from "./About/Index.js";
@@ -74,7 +73,6 @@ export default class Desktop extends React.Component {
             />
             <Route path="/photography" component={Photographs} />
             <Route path="/writings" component={Writing} />
-            <Footer />
           </div>
         </Router>
       </div>

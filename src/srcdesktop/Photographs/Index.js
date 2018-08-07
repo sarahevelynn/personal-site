@@ -15,6 +15,7 @@ import mountains from "./assets/mountains.jpg";
 import peru from "./assets/peru.jpg";
 import summit from "./assets/summit.jpg";
 import tetons from "./assets/tetons.jpg";
+import Footer from "../Footer/Footer.js";
 
 
 
@@ -47,6 +48,7 @@ export default class Photographs extends React.Component {
       <img src={summit} className="desktopPhotos" alt="summit"/>
       <img src={tetons} className="desktopPhotos" alt="tetons"/>
       </div>
+      <Footer />
       </div>
     );
   }

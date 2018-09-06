@@ -19,7 +19,7 @@ export default class Section extends React.Component {
           <FrontHeader />
           <div id="Info">
             <h1 id="SeJ"> SarahEvelynn Johnson </h1>
-            <h2> || Startup Junkie || </h2>
+            <h2> || Startup & Consulting Junkie || </h2>
             <h2> || Full-Stack Web Developer || </h2>
             <h2> || Digital Marketing & Content Creation || </h2>
           </div>

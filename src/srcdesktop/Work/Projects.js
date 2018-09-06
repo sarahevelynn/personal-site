@@ -17,9 +17,9 @@ export class Projects extends React.Component {
     return (
       <div id="projects">
         <div id="webProjects">
+          <SaveAway />
           <StartupWeekNav />
           <SocialCloud />
-          <SaveAway />
         </div>
 
         <div id="webProjects">

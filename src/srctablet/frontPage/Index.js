@@ -21,7 +21,7 @@ export default class Welcome extends React.Component {
             <h1 id="name"> SarahEvelynn Johnson </h1>
           </div>
           <div>
-            <h2> || Startup Junkie || </h2>
+          <h2> || Startup & Consulting Junkie || </h2>
             <h2> || Full-Stack Web Developer || </h2>
             <h2> || Digital Marketing & Content Creation || </h2>
           </div>

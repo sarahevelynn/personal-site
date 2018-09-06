@@ -29,7 +29,7 @@ export default class DPT extends React.Component {
           Functional Manual Therapy (FMT).
         </h3>
         <h4 id="workDetails">
-          Logo Design | Branding | SquareSpace Design | Deliverables{" "}
+          Logo Design | Branding | SquareSpace Design | Deliverables
         </h4>
       </div>
     );

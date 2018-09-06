@@ -15,11 +15,11 @@ export default class StartupWeekNav extends React.Component {
           </a>
           <h3 id="workDescription">
             Click to download a video demo of my Startup Week Navigator React
-            Native App aimed at improving event choice and networking.{" "}
+            Native App aimed at improving event choice and networking.
           </h3>
           <h4 id="workDetails">
-            {" "}
-            React Native | AWS | Node | Express | Knex | PostgreSQL{" "}
+            
+            React Native | AWS | Node | Express | Knex | PostgreSQL
           </h4>
         </div>
     );

@@ -13,15 +13,27 @@ export default class AboutMe extends React.Component {
           <div id="outterSquare">
             <h2 id="homeButton"> Bienvenido! </h2>
             <p>
-              Making a difference with integrity is what I build my life around.
-              I am a native Coloradan with a deep love for the outdoors and the
-              startup community.
+              I specialize in creating the content that makes businesses run.
+              <br />
+              - Digital Content Creation
+              <br />
+              - Blogging, Social Media, Deliverables
+              <br />
+              - Market Positioning
+              <br /> - Research, Planning and Implimentation
               <br />
               <br />
-              When I am not at a startup event, coding or skiing, usually you
-              can find me at a cafe or brewery with my dog, Benedict.
+              Recently, I graduated from
+              <a
+                href="https://www.galvanize.com/denver-platte/web-development"
+                target="_blank"
+              >
+                Galvanize
+              </a>, a six-month full-stack web immersive program.
               <br />
-              (named after Benedict Cumberbatch)
+              Now I am looking to dive into the world of consulting in tech. I
+              am actively seeking new consulting clients or an opportunity for a
+              career with a company in tech consulting or project management.
             </p>
             <div id="navagateButton">
               <a href={"mailto:sarah@5280startupsolutions.co"} target="_blank">
@@ -42,10 +54,15 @@ export default class AboutMe extends React.Component {
               <br /> Research, Planning and Implimentation
               <br />
               <br />
-              Recently, I graduated from <a href="https://www.galvanize.com/denver-platte/web-development" target="_blank"> Galvanize</a>, a six-month full-stack web
-              immersive program. Now I am looking to dive into the world of
-              development. I am actively seeking an opportunity to learn from an experienced
-              developer.
+              Recently, I graduated from
+              <a
+                href="https://www.galvanize.com/denver-platte/web-development"
+                target="_blank"
+              >
+                Galvanize
+              </a>, a six-month full-stack web immersive program. Now I am
+              looking to dive into the world of development. I am actively
+              seeking an opportunity to learn from an experienced developer.
             </p>
             <div id="resume">
               <a

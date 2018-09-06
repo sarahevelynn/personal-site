@@ -9,7 +9,7 @@ export default class AboutMe extends React.Component {
     return (
       <div>
         <Header />
-        <div >
+        <div>
           <div id="mobileTop">
             <h2 id="homeButton"> Bienvenido! </h2>
             <p>
@@ -34,18 +34,25 @@ export default class AboutMe extends React.Component {
             <p>
               I specialize in creating the content that makes businesses run.
               <br />
-              :: Digital Content Creation ::
+              - Digital Content Creation
               <br />
-              Blogging, Social Media, Deliverables
+              - Blogging, Social Media, Deliverables
               <br />
-              :: Market Positioning ::
-              <br /> Research, Planning and Implimentation
+              - Market Positioning
+              <br /> - Research, Planning and Implimentation
               <br />
               <br />
-              Recently, I graduated from <a href="https://www.galvanize.com/denver-platte/web-development" target="_blank"> Galvanize</a>, a six-month full-stack web
-              immersive program. Now I am looking to dive into the world of
-              development. I am actively seeking an opportunity to learn from an experienced
-              developer.
+              Recently, I graduated from
+              <a
+                href="https://www.galvanize.com/denver-platte/web-development"
+                target="_blank"
+              >
+                Galvanize
+              </a>, a six-month full-stack web immersive program.
+              <br />
+              Now I am looking to dive into the world of consulting in tech. I
+              am actively seeking new consulting clients or an opportunity for a
+              career with a company in tech consulting or project management.
             </p>
             <div id="resume">
               <a

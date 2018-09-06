@@ -26,7 +26,7 @@ export default class SocialCloud extends React.Component {
           as a Chrome extension!
         </h3>
         <h4 id="workDetails">
-          React | D3 | Twitter API | Node | Express | Knex | PostgreSQL{" "}
+          React | D3 | Twitter API | Node | Express | Knex | PostgreSQL
         </h4>
       </div>
     );

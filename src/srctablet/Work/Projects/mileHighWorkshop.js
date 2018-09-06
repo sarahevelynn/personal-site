@@ -18,8 +18,8 @@ export default class MileHighWorkshop extends React.Component {
           rebuild from addictions, homelessness and incarceration.
         </h3>
         <h4 id="workDetails">
-          {" "}
-          Deliverables | Branding | Collateral | Digital Marketing{" "}
+          
+          Deliverables | Branding | Collateral | Digital Marketing
         </h4>
       </div>
     );

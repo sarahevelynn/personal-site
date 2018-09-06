@@ -18,8 +18,8 @@ export default class GoldCalendar extends React.Component {
           streamline their availability through a custom widget.
         </h3>
         <h4 id="workDetails">
-          {" "}
-          Development | Branding | Collateral | Digital Marketing{" "}
+          
+          Development | Branding | Collateral | Digital Marketing
         </h4>
       </div>
     );

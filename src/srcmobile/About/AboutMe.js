@@ -34,7 +34,9 @@ export default class AboutMe extends React.Component {
             <p>
               I specialize in creating the content that makes businesses run.
               <br />
-              - Digital Content Creation
+              - Website and Web App Development
+              <br />
+               - Digital Content Creation
               <br />
               - Blogging, Social Media, Deliverables
               <br />

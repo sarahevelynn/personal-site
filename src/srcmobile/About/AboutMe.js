@@ -13,20 +13,19 @@ export default class AboutMe extends React.Component {
           <div id="mobileTop">
             <h2 id="homeButton"> Bienvenido! </h2>
             <p>
-              Making a difference with integrity is what I build my life around.
-              I am a native Coloradan with a deep love for the outdoors and the
-              startup community.
+              Challenging myself while making a difference with integrity is
+              what I build my life around. I am a native Coloradan with a deep
+              love for good people, the outdoors and sunflowers.
               <br />
               <br />
-              When I am not at a startup event, coding or skiing, usually you
-              can find me at a cafe or brewery with my dog, Benedict.
+              When I am not at a startup event, collaborating, problem solving,
+              coding or skiing, usually you can find me working at a cafe or
+              brewery with my dog, Benedict.
               <br />
-              (named after Benedict Cumberbatch)
+              (named after Benedict Cumberbatch, of course)
             </p>
             <div id="navagateButton">
-              <a href={"mailto:sarah@5280startupsolutions.co"} target="_blank">
-                Contact Me
-              </a>
+              <a href={"mailto:sarah@5280startupsolutions.co"}>Contact Me</a>
             </div>
           </div>
           <div id="mobileMiddle">
@@ -36,12 +35,13 @@ export default class AboutMe extends React.Component {
               <br />
               - Website and Web App Development
               <br />
-               - Digital Content Creation
-              <br />
-              - Blogging, Social Media, Deliverables
+              - Research, Planning and Implimentation
               <br />
               - Market Positioning
-              <br /> - Research, Planning and Implimentation
+              <br />
+              - Digital Content Creation
+              <br />
+              -- Blogging, Social Media, Deliverables
               <br />
               <br />
               Recently, I graduated from
@@ -52,7 +52,7 @@ export default class AboutMe extends React.Component {
                 Galvanize
               </a>, a six-month full-stack web immersive program.
               <br />
-              Now I am looking to dive into the world of consulting in tech. I
+              I am now looking to dive into the world of consulting in tech. I
               am actively seeking new consulting clients or an opportunity for a
               career with a company in tech consulting or project management.
             </p>

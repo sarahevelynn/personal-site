@@ -15,10 +15,10 @@ export default class MileHighWorkshop extends React.Component {
         </a>
         <h3 id="workDescription">
           Click to discover an amazing concious captial company seeking to
-          rebuild from addictions, homelessness and incarceration.
+          rebuild people's lives after addiction, homelessness and
+          incarceration.
         </h3>
         <h4 id="workDetails">
-          
           Deliverables | Branding | Collateral | Digital Marketing
         </h4>
       </div>

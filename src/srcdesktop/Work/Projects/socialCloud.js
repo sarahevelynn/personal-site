@@ -21,9 +21,9 @@ export default class SocialCloud extends React.Component {
           Social Cloud
         </a>
         <h3 id="workDescription">
-          Click to checkout real time, location specific visual representation
-          of social trends to see what is going on around the country. Available
-          as a Chrome extension!
+          Click to checkout a real time, location specific visual representation
+          of social trends & see what is going on around the country. Available
+          as a Chrome browser extension!
         </h3>
         <h4 id="workDetails">
           React | D3 | Twitter API | Node | Express | Knex | PostgreSQL

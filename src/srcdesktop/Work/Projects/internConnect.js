@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import internConnectLogo from "../assets/internConnectLogo.png";
+import internConnectLogo from "../../../workAssets/internConnectLogo.png";
 
 export default class InternConnect extends React.Component {
   render() {

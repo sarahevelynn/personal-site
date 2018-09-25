@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import BillTrack50Logo from "../assets/BillTrack50Logo.png";
+import BillTrack50Logo from "../../../workAssets/BillTrack50Logo.png";
 
 export default class BillTrack extends React.Component {
   render() {

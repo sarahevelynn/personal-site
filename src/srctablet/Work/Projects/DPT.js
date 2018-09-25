@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import DPTLogo from "../assets/DPTLogo.png";
+import DPTLogo from "../../../workAssets/DPTLogo.png";
 
 export default class DPT extends React.Component {
   render() {

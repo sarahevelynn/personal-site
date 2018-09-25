@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import startupLogo from "../assets/startupLogo.png";
+import startupLogo from "../../../workAssets/startupLogo.png";
 
 export default class startupWeekNav extends React.Component {
   render() {

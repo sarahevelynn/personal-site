@@ -1,10 +1,10 @@
 import React from "react";
-import email from "./assets/email.png";
-import twitter from "./assets/twitter.png";
-import github from "./assets/github.png";
-import linkedIn from "./assets/linkedIn.png";
-import SarahEvelynnJohnsonResume from "./assets/SarahEvelynnJohnsonResume.pdf";
-import Resume from "./assets/Resume.png";
+import email from "../../footerAssets/email.png";
+import twitter from "../../footerAssets/twitter.png";
+import github from "../../footerAssets/github.png";
+import linkedIn from "../../footerAssets/linkedIn.png";
+import SarahEvelynnJohnsonResume from "../../generalAssets/SarahEvelynnJohnsonResume.pdf";
+import Resume from "../../footerAssets/Resume.png";
 
 export default function Footer() {
   return (

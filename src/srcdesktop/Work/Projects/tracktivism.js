@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import tracktivismLogo from "../assets/tracktivismLogo.png";
+import tracktivismLogo from "../../../workAssets/tracktivismLogo.png";
 
 export default class Tracktivism extends React.Component {
   render() {

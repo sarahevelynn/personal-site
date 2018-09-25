@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import GoldCalLogo from "../assets/GoldCalLogo.png";
-import GC from "../assets/GC.pdf";
+import GoldCalLogo from "../../../workAssets/GoldCalLogo.png";
+import GC from "../../../workAssets/GC.pdf";
 
 export default class GoldCalendar extends React.Component {
   render() {
@@ -18,7 +18,7 @@ export default class GoldCalendar extends React.Component {
           streamline their availability through a custom widget.
         </h3>
         <h4 id="workDetails">
-          
+
           Development | Branding | Collateral | Digital Marketing
         </h4>
       </div>

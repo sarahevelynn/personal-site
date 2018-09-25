@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import PicShare from "../assets/PicShare.png";
+import PicShare from "../../../workAssets/PicShare.png";
 
 export default class PicShares extends React.Component {
   render() {

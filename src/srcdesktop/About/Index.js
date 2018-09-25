@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import SarahEvelynnJohnsonResume from "./assets/SarahEvelynnJohnsonResume.pdf";
-import sej from "./assets/sej.jpg";
+import SarahEvelynnJohnsonResume from "../../generalAssets/SarahEvelynnJohnsonResume.pdf";
+import sej from "../../aboutAssets/sej.jpg";
 import Header from "../Header/Header.js";
 import Footer from "../Footer/Footer.js";
 

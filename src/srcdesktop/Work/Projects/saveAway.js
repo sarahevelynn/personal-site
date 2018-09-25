@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import saveAwayLogo from "../assets/saveAwayLogo.png";
+import saveAwayLogo from "../../../workAssets/saveAwayLogo.png";
 
 export default class SaveAway extends React.Component {
   render() {

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import benniComp from "./assets/benniComp.JPG";
+import benniComp from "../../frontPageAssets/benniComp.JPG";
+import SarahEvelynnJohnsonResume from "../../generalAssets/SarahEvelynnJohnsonResume.pdf";
 import FrontHeader from "../Header/FrontHeader";
-import SarahEvelynnJohnsonResume from "./assets/SarahEvelynnJohnsonResume.pdf";
 import StickyFooter from "../Footer/StickyFooter";
 
 var sectionStyle = {

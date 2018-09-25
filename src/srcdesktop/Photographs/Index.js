@@ -1,20 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Header from "../Header/Header.js";
-import aspen from "./assets/aspen.jpg";
-import bird from "./assets/bird.jpg";
-import bone from "./assets/bone.jpg";
-import comillas from "./assets/comillas.jpg";
-import cows from "./assets/cows.jpg";
-import denver from "./assets/denver.jpg";
-import flowers from "./assets/flowers.jpg";
-import hawaii from "./assets/hawaii.jpg";
-import hut from "./assets/hut.jpg";
-import hutTrip from "./assets/hutTrip.jpg";
-import mountains from "./assets/mountains.jpg";
-import peru from "./assets/peru.jpg";
-import summit from "./assets/summit.jpg";
-import tetons from "./assets/tetons.jpg";
+import aspen from "../../photoAssets/aspen.jpg";
+import bird from "../../photoAssets/bird.jpg";
+import bone from "../../photoAssets/bone.jpg";
+import comillas from "../../photoAssets/comillas.jpg";
+import cows from "../../photoAssets/cows.jpg";
+import denver from "../../photoAssets/denver.jpg";
+import flowers from "../../photoAssets/flowers.jpg";
+import hawaii from "../../photoAssets/hawaii.jpg";
+import hut from "../../photoAssets/hut.jpg";
+import hutTrip from "../../photoAssets/hutTrip.jpg";
+import mountains from "../../photoAssets/mountains.jpg";
+import peru from "../../photoAssets/peru.jpg";
+import summit from "../../photoAssets/summit.jpg";
+import tetons from "../../photoAssets/tetons.jpg";
 import Footer from "../Footer/Footer.js";
 
 

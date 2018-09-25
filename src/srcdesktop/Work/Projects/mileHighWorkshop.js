@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import MHWLogo from "../assets/MHWLogo.png";
-import MHWAnnualReport from "../assets/MHWAnnualReport.pdf";
+import MHWLogo from "../../../workAssets/MHWLogo.png";
+import MHWAnnualReport from "../../../workAssets/MHWAnnualReport.pdf";
 
 export default class MileHighWorkshop extends React.Component {
   render() {

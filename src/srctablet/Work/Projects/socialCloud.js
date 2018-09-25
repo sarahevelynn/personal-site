@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import socialCloudLogo from "../assets/socialCloudLogo.png";
+import socialCloudLogo from "../../../workAssets/socialCloudLogo.png";
 
 export default class SocialCloud extends React.Component {
   render() {

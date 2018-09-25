@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import startupWeek from "../assets/startupWeek.mp4";
-import startupweeknav from "../assets/startupweeknav.png";
+import startupWeek from "../../../workAssets/startupWeek.mp4";
+import startupweeknav from "../../../workAssets/startupweeknav.png";
 
 export default class StartupWeekNav extends React.Component {
   render() {

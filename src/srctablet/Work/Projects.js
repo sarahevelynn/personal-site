@@ -6,6 +6,7 @@ import SaveAway from "./Projects/saveAway";
 import SocialCloud from "./Projects/socialCloud";
 import Tracktivism from "./Projects/tracktivism";
 import InternConnect from "./Projects/internConnect";
+import BillTrends from "./Projects/billTrends";
 import PicShares from "./Projects/picShare";
 import BillTrack from "./Projects/billTrack";
 import DPT from "./Projects/DPT";
@@ -25,18 +26,23 @@ export class Projects extends React.Component {
           <SocialCloud />
           <FiftyTwoEighty />
         </div>
+
         <div id="webProjects">
           <Tracktivism />
+          <BillTrends />
+        </div>
+
+        <div id="webProjects">
           <PicShares />
-        </div>
-
-        <div id="webProjects">
           <InternConnect />
-          <BillTrack />
         </div>
 
         <div id="webProjects">
+          <BillTrack />
           <GoldCalendar />
+        </div>
+
+        <div id="webProjects">
           <MileHighWorkshop />
         </div>
       </div>

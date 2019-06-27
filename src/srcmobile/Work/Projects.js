@@ -21,8 +21,9 @@ export class Projects extends React.Component {
         <StartupWeekNav />
         <SocialCloud />
         <FiftyTwoEighty />
-        <Tracktivism />
+        <DPT />
         <BillTrends />
+        <Tracktivism />
         <PicShares />
         <InternConnect />
         <BillTrack />

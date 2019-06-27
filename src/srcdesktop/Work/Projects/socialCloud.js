@@ -5,7 +5,7 @@ import socialCloudLogo from "../../../workAssets/socialCloudLogo.png";
 export default class SocialCloud extends React.Component {
   render() {
     return (
-      <div id="projectTile">
+      <div id="projectTile1">
         <a
           id="projectTitle"
           target="_blank"

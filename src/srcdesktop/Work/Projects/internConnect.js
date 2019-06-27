@@ -5,7 +5,7 @@ import internConnectLogo from "../../../workAssets/internConnectLogo.png";
 export default class InternConnect extends React.Component {
   render() {
     return (
-      <div id="projectTile">
+      <div id="projectTile1">
         <a
           id="projectTitle"
           target="_blank"

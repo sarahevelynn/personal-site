@@ -5,7 +5,7 @@ import DPTLogo from "../../../workAssets/DPTLogo.png";
 export default class DPT extends React.Component {
   render() {
     return (
-      <div id="projectTile">
+      <div id="projectTile2">
         <a
           id="projectTitle"
           target="_blank"
@@ -29,7 +29,7 @@ export default class DPT extends React.Component {
           Functional Manual Therapy (FMT).
         </h3>
         <h4 id="workDetails">
-          Logo Design | Branding | SquareSpace Design | Deliverables
+          React | Node | Express | Knex | PostgreSQL | Logo Design | Branding
         </h4>
       </div>
     );

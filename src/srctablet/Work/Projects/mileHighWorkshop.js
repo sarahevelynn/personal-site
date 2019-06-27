@@ -6,7 +6,7 @@ import MHWAnnualReport from "../../../workAssets/MHWAnnualReport.pdf";
 export default class MileHighWorkshop extends React.Component {
   render() {
     return (
-      <div id="projectTile">
+      <div id="projectTile2">
         <a id="projectTitle" href={MHWAnnualReport} download="MHWAnnualReport">
           <img id="projectIcon" src={MHWLogo} alt="Mile High Workshop" />
         </a>

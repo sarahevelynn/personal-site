@@ -6,7 +6,7 @@ import startupweeknav from "../../../workAssets/startupweeknav.png";
 export default class StartupWeekNav extends React.Component {
   render() {
     return (
-      <div id="projectTile">
+      <div id="projectTile2">
         <a id="projectTitle" href={startupWeek} download="startupWeek">
           <img id="projectIcon" src={startupweeknav} alt="Startup Week Nav" />
         </a>

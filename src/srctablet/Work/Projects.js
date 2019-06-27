@@ -28,22 +28,23 @@ export class Projects extends React.Component {
         </div>
 
         <div id="webProjects">
-          <Tracktivism />
+          <DPT />
           <BillTrends />
         </div>
 
         <div id="webProjects">
-          <PicShares />
+          <Tracktivism />
           <InternConnect />
         </div>
 
         <div id="webProjects">
           <BillTrack />
-          <GoldCalendar />
+          <PicShares />
         </div>
 
         <div id="webProjects">
           <MileHighWorkshop />
+          <GoldCalendar />
         </div>
       </div>
     );

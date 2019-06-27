@@ -5,7 +5,7 @@ import DPTLogo from "../../../workAssets/DPTLogo.png";
 export default class DPT extends React.Component {
   render() {
     return (
-      <div id="projectTile">
+      <div id="projectTile1">
         <a
           id="projectTitle"
           target="_blank"

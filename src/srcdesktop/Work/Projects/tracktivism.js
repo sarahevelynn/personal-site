@@ -5,7 +5,7 @@ import tracktivismLogo from "../../../workAssets/tracktivismLogo.png";
 export default class Tracktivism extends React.Component {
   render() {
     return (
-      <div id="projectTile">
+      <div id="projectTile1">
         <a
           id="projectTitle"
           target="_blank"

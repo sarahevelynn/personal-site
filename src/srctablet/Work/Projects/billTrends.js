@@ -5,7 +5,7 @@ import billsTrends from "../../../workAssets/billsTrends.png";
 export default class BillTrends extends React.Component {
   render() {
     return (
-      <div id="projectTile">
+      <div id="projectTile2">
         <a
           id="projectTitle"
           target="_blank"

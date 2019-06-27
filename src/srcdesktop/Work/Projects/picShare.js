@@ -5,7 +5,7 @@ import PicShare from "../../../workAssets/PicShare.png";
 export default class PicShares extends React.Component {
   render() {
     return (
-      <div id="projectTile">
+      <div id="projectTile1">
         <a
           id="projectTitle"
           target="_blank"

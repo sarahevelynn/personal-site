@@ -5,7 +5,7 @@ import startupLogo from "../../../workAssets/startupLogo.png";
 export default class startupWeekNav extends React.Component {
   render() {
     return (
-      <div id="projectTile">
+      <div id="projectTile2">
         <a
           id="projectTitle"
           target="_blank"

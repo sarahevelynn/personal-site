@@ -5,7 +5,7 @@ import saveAwayLogo from "../../../workAssets/saveAwayLogo.png";
 export default class SaveAway extends React.Component {
   render() {
     return (
-      <div id="projectTile">
+      <div id="projectTile2">
         <a
           id="projectTitle"
           target="_blank"

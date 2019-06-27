@@ -6,7 +6,7 @@ import GC from "../../../workAssets/GC.pdf";
 export default class GoldCalendar extends React.Component {
   render() {
     return (
-      <div id="projectTile">
+      <div id="projectTile2">
         <a id="projectTitle" href={GC} download="GC">
           <img id="projectIcon" src={GoldCalLogo} alt="Gold Calendar" />
         </a>

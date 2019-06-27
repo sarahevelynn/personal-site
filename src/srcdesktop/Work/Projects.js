@@ -17,7 +17,7 @@ export class Projects extends React.Component {
   render() {
     return (
       <div id="projects">
-        <div id="webProjects">
+      <div id="webProjects">
           <SaveAway />
           <StartupWeekNav />
           <SocialCloud />
@@ -25,7 +25,7 @@ export class Projects extends React.Component {
 
         <div id="webProjects">
           <FiftyTwoEighty />
-          <DPT/>
+          <DPT />
           <BillTrends />
         </div>
 
@@ -33,7 +33,6 @@ export class Projects extends React.Component {
           <Tracktivism />
           <InternConnect />
           <BillTrack />
-
         </div>
 
         <div id="webProjects">

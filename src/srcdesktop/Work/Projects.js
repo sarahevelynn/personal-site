@@ -25,17 +25,19 @@ export class Projects extends React.Component {
 
         <div id="webProjects">
           <FiftyTwoEighty />
-          <Tracktivism />
+          <DPT/>
           <BillTrends />
         </div>
 
         <div id="webProjects">
+          <Tracktivism />
           <InternConnect />
           <BillTrack />
-          <PicShares />
+
         </div>
 
         <div id="webProjects">
+          <PicShares />
           <GoldCalendar />
           <MileHighWorkshop />
         </div>

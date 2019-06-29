@@ -7,7 +7,7 @@ import StickyFooter from "../Footer/StickyFooter";
 
 var sectionStyle = {
   backgroundImage: `url(${benniComp})`,
-  height: "850px",
+  height: "50px",
   backgroundSize: "cover"
 };
 

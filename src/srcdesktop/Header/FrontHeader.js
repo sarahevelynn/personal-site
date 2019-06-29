@@ -11,22 +11,20 @@ export default function FrontHeader() {
         </Link>
       </div>
       <div id="navBar">
-      <nav>
-        <Link to="/">
-          <h2 id="navItem1">Home</h2>
-        </Link>
-        <Link to="/myWork">
-          <h2 id="navItem1">My Work</h2>
-        </Link>
-        <Link to="/about">
-          <h2 id="navItem1">About Me</h2>
-        </Link>
-        <a href={"mailto:sarah@5280startupsolutions.co"} ><h2 id="navItem1">Contact Me</h2></a>
-        <a href={"https://www.billtrack50.com/blog/author/sarah/"} target="_blank"><h2 id="navItem1">Writings</h2></a>
-        <Link to="/photography">
-          <h2 id="navItem1">Photographs</h2>
-        </Link>
-      </nav>
+        <nav>
+          <Link to="/myWork">
+            <h2 id="navItem1">My Work</h2>
+          </Link>
+          <Link to="/about">
+            <h2 id="navItem1">About Me</h2>
+          </Link>
+          <a href={"mailto:sarah@5280startupsolutions.co"}>
+            <h2 id="navItem1">Contact Me</h2>
+          </a>
+          <Link to="/photography">
+            <h2 id="navItem1">Photographs</h2>
+          </Link>
+        </nav>
       </div>
     </header>
   );

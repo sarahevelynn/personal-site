@@ -9,7 +9,7 @@ import Resume from "../../footerAssets/Resume.png";
 export default function StickyFooter() {
   return (
     <footer id="footerBottom">
-      <p id="copy">&copy; 2018, SarahEvelynn Johnson</p>
+      <p id="copy">&copy; 2019, SarahEvelynn Johnson</p>
       <div id="social">
         <a href={"mailto:sarah@5280startupsolutions.co"} target="_blank">
           <img src={email} className="socialPhoto" alt="email us" />

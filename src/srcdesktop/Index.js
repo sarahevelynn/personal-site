@@ -7,6 +7,7 @@ import AboutMe from "./About/Index.js";
 import Contact from "./Contact/Index.js";
 import Photographs from "./Photographs/Index.js";
 import Writing from "./Writing/Index.js";
+import ParallaxPractice from "./parallax/Index";
 
 var baseURL = "https://sarahevelynnjohnson.herokuapp.com/";
 
@@ -64,7 +65,7 @@ export default class Desktop extends React.Component {
       <div className="App">
         <Router>
           <div className="App-content">
-            <Route exact path="/" component={Section} />
+            <Route exact path="/" component={ParallaxPractice} />
             <Route path="/myWork" component={myWork} />
             <Route path="/about" component={AboutMe} />
             <Route

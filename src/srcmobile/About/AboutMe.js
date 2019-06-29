@@ -13,48 +13,41 @@ export default class AboutMe extends React.Component {
           <div id="mobileTop">
             <h2 id="homeButton"> Bienvenido! </h2>
             <p>
-              Challenging myself while making a difference with integrity is
-              what I build my life around. I am a native Coloradan with a deep
-              love for good people, the outdoors and sunflowers.
+              I build my life around the idea of continuous improvement.Whether
+              it be learning a new skill, language, craft or sport, there is
+              always more out there for us to experience to help shape our minds
+              and personalities.You never know what you will discover and my
+              favorite parts of myself are a direct result of “Why not, I can
+              figure that out.” <br />
               <br />
-              <br />
-              When I am not at a startup event, collaborating, problem solving,
-              coding or skiing, usually you can find me working at a cafe or
-              brewery with my dog, Benedict.
-              <br />
+              When I am not at a meetup, coding, crafting, climbing or skiing,
+              usually you can find me working at a cafe or brewery with my dog,
+              Benedict. <br />
               (named after Benedict Cumberbatch, of course)
             </p>
             <div id="navagateButton">
-              <a href={"mailto:sarah@5280startupsolutions.co"}>Contact Me</a>
+              <a href={"mailto:sarah@5280startupsolutions.co"}> Contact Me </a>
             </div>
           </div>
           <div id="mobileMiddle">
             <h2 id="homeButton"> What I Do </h2>
             <p>
-              I specialize in creating the content that makes businesses run.
+              From advice to creation to execution I pick up skills quickly.
               <br />
-              - Website and Web App Development
+              -Website and Web App Development <br />
+              -Research, Planning and Implimentation <br />
+              -Market Positioning <br />
+              -Digital Content Creation <br />
               <br />
-              - Research, Planning and Implimentation
+              I am a graduate of the University of Denver and Galvanize, a
+              six-month full-stack web immersive program.
               <br />
-              - Market Positioning
-              <br />
-              - Digital Content Creation
-              <br />
-              -- Blogging, Social Media, Deliverables
-              <br />
-              <br />
-              Recently, I graduated from
-              <a
-                href="https://www.galvanize.com/denver-platte/web-development"
-                target="_blank"
-              >
-                Galvanize
-              </a>, a six-month full-stack web immersive program.
-              <br />
-              I am now looking to dive into the world of consulting in tech. I
-              am actively seeking new consulting clients or an opportunity for a
-              career with a company in tech consulting or project management.
+              I am looking for opportunities to dive into the world of security
+              consulting in tech. I would love to expand my hacking skills and
+              join a red team or a penetration testing team. I have extensive
+              experience testing applications but am looking to incorporate my
+              development skills and knack for seeing issues for more rewarding,
+              challenging work. Mentorship at my next position is a priority.
             </p>
             <div id="resume">
               <a

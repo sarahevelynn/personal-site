@@ -22,7 +22,6 @@ export default function Header() {
           <h2 id="navItem">About Me</h2>
         </Link>
         <a href={"mailto:sarah@5280startupsolutions.co"}><h2 id="navItem">Contact Me</h2></a>
-        <a href={"https://www.billtrack50.com/blog/author/sarah/"} target="_blank"><h2 id="navItem">Writings</h2></a>
         <Link to="/photography">
           <h2 id="navItem">Photographs</h2>
         </Link>

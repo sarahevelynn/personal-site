@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { ParallaxProvider } from 'react-scroll-parallax';
 import "./App.css";
 import DesktopBreakpoint from "./Responsive_Utilities/desktop_breakpoint";
 import TabletBreakpoint from "./Responsive_Utilities/tablet_breakpoint";
@@ -14,6 +15,7 @@ class App extends Component {
   render() {
     return (
       <div id="App">
+      <ParallaxProvider>
         <DesktopBreakpoint>
           <Desktop />
         </DesktopBreakpoint>
@@ -21,10 +23,11 @@ class App extends Component {
         <TabletBreakpoint>
           <Tablet />
         </TabletBreakpoint>
-        
+
         <PhoneBreakpoint>
           <Mobile />
         </PhoneBreakpoint>
+          </ParallaxProvider>
       </div>
     );
   }

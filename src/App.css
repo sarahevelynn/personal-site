@@ -69,6 +69,22 @@ p {
   font-size: 1.2rem;
 }
 
+label {
+  font-size: 1.3rem
+}
+
+input {
+  font-size: 1.3rem
+}
+
+select {
+  font-size: 1.3rem
+}
+
+option {
+  font-size: 1.3
+}
+
 #arrowLeft {
   width: 5%;
   margin-left: 40rem;
@@ -191,4 +207,15 @@ p {
 
 .steppedProj{
   margin-top: 5rem
+}
+
+#contactForm {
+  background-color: #fcf3cf;
+  height: 433px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 1.2rem;
+  padding-left: 14rem;
 }

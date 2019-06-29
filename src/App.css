@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: rgba(171, 211, 203, 0.3);
+  background-color: #ECEEED;
 }
 
 a {
@@ -71,8 +71,10 @@ p {
 
 #arrowLeft {
   width: 5%;
-  margin-left: 20rem;
+  margin-left: 40rem;
   margin-top: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 #arrowRight {
@@ -110,12 +112,6 @@ p {
   align-items: center;
   flex-direction: row;
   width: 100%;
-  border-color: #9BC2C0;
-  border-top-width: medium;
-  border-bottom-width: medium;
-  border-right-width: 0;
-  border-left-width: 0;
-  border-style: solid;
   background-color: #ECEEED;
   justify-content: space-around;
 }

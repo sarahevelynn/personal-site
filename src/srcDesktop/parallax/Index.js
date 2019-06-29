@@ -8,7 +8,6 @@ import summit from "../../photoAssets/summit.jpg";
 import bone from "../../photoAssets/bone.jpg";
 import aspen from "../../photoAssets/aspen.jpg";
 
-
 import ArrowTransitionL from "./ArrowL";
 import ArrowTransitionR from "./ArrowR";
 
@@ -17,7 +16,7 @@ const parallaxData = [
     start: "self",
     startOffset: "10vw",
     end: "self",
-    endOffset: "60vh",
+    endOffset: "80vh",
     easing: "easeInSine",
     properties: [
       {
@@ -51,7 +50,7 @@ const parallaxDataA = [
 export default class ParallaxPractice extends React.Component {
   render() {
     return (
-      <div>
+      <div id="App">
         <Header />
         <ArrowTransitionR />
         <WhatIDo className="content" />

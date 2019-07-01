@@ -17,7 +17,6 @@ export default class Contact extends React.Component {
       Name: data.get("Name"),
       Subject: data.get("Subject"),
       Message: data.get("Message"),
-      Interest: data.get("Interest"),
       Email: data.get("Email")
     };
   };
@@ -49,7 +48,7 @@ export default class Contact extends React.Component {
     return (
       <div>
         <h2>Contact Me</h2>
-        <form id="contactForm" onSubmit={this.props.sendMessage}>
+        <form id="contactForm" onSubmit={this.sendMessage}>
           <label htmlFor="Name">Name:</label>
           <input type="text" name="Name" />
           <label htmlFor="Email">Email:</label>

@@ -7,6 +7,7 @@ import MyWork from "./MyWork";
 import Contact from "./Contact";
 import summit from "../../photoAssets/summit.jpg";
 import bone from "../../photoAssets/bone.jpg";
+import tetons from "../../photoAssets/tetons.jpg";
 import aspen from "../../photoAssets/aspen.jpg";
 
 import ArrowTransitionL from "./ArrowL";
@@ -67,12 +68,15 @@ export default class ParallaxPractice extends React.Component {
         </Plx>
         <MyWork className="content" />
         <Plx parallaxData={parallaxData}>
-          <img src={aspen} className="separator" alt="SeJ" />
+          <img src={tetons} className="separator" alt="SeJ" />
         </Plx>
         <Plx parallaxData={parallaxDataA}>
           <ArrowTransitionR />
         </Plx>
         <Contact />
+        <Plx parallaxData={parallaxData}>
+          <img src={aspen} className="separator" alt="SeJ" />
+        </Plx>
       </div>
     );
   }

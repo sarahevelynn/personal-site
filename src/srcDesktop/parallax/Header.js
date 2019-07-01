@@ -41,9 +41,7 @@ export default class Header extends React.Component {
     return (
       <div>
       <ArrowTransitionL />
-
       <img src={benniComp} id="headerPhoto" alt="SEJ" />
-
         <Plx parallaxData={parallaxData}>
           <div id="headerText">
             <h1> Hello, I'm Sarah Evelynn </h1>

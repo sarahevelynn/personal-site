@@ -5,7 +5,6 @@ import Loader from "react-loader-spinner";
 
 export default class Contact extends React.Component {
   state = {
-    redirect: false,
     message: "",
     isLoading: false
   };
@@ -22,52 +21,52 @@ export default class Contact extends React.Component {
   };
 
   sendMessage = event => {
-  fetch("https://dpt-email-server.herokuapp.com/sejContact", {
-    method: "post",
-    body: JSON.stringify(this.getBasicInfo(event)),
-    headers: new Headers({
-      "Access-Control-Allow-Origin": "*",
-      "Content-Type": "application/json"
+    this.setState({ isLoading: true });
+    fetch("https://dpt-email-server.herokuapp.com/sejContact", {
+      method: "post",
+      body: JSON.stringify(this.getBasicInfo(event)),
+      headers: new Headers({
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/json"
+      })
     })
-  })
-    .then(resp => resp.json())
-    .then(resp => {
-      this.response = resp.message;
-    })
-    .then(
-      setTimeout(() => {
-        this.setState({
-          message: "Ping Sent!",
-          isLoading: false
-        });
-      }, 1000)
-    );
-};
+      .then(resp => resp.json())
+      .then(resp => {
+        this.response = resp.message;
+      })
+      .then(
+        setTimeout(() => {
+          this.setState({
+            message: "Ping Sent! Talk to you soon.",
+            isLoading: false
+          });
+        }, 1000)
+      );
+  };
 
   render() {
     return (
       <div>
-        <h2>Contact Me</h2>
-        <form id="contactForm" onSubmit={this.sendMessage}>
-          <label htmlFor="Name">Name:</label>
-          <input type="text" name="Name" />
-          <label htmlFor="Email">Email:</label>
-          <input type="text" name="Email" />
-          <label htmlFor="Subject">Subject:</label>
-          <input type="text" name="Subject" />
-          <label htmlFor="Message">Message:</label>
-          <input type="text" name="Message" />
-          <label htmlFor="Interest">Reason for Contact</label>
-          <select name="Interest">
-            <option value="" disabled selected>
-              Select something...
-            </option>
-            <option value="Web Development">General Contact</option>
-            <option value="App Development">Web/App Development</option>
-            <option value="Digital Marketing">Digital Marketing</option>
-            <option value="Writing">Writing</option>
-          </select>
-          <br />
+        <h2 id="contactHeader">Contact Me</h2>
+        <div id="contactForm">
+          <form id="contactInfo" onSubmit={this.sendMessage}>
+            <div id="basicContact">
+              <label htmlFor="Name">Name:</label>
+              <input type="text" name="Name" />
+              <label htmlFor="Email">Email:</label>
+              <input type="text" name="Email" />
+            </div>
+            <div>
+              <label htmlFor="Subject">Subject:</label>
+              <input type="text" name="Subject" />
+            </div>
+            <div id="message">
+              <label htmlFor="Message">Message:</label>
+              <br />
+              <input type="text" name="Message" id="messageBox" />
+            </div>
+            <br />
+            <div id="loader">
             {this.state.isLoading === true ? (
               <Loader
                 type="ThreeDots"
@@ -78,8 +77,12 @@ export default class Contact extends React.Component {
             ) : (
               <p> {this.state.message} </p>
             )}
-          <input type="submit" id="submitButton" value="Submit" />
-        </form>
+            </div>
+            <div id="sumbit">
+              <input type="submit" id="submitButton" value="Submit" />
+            </div>
+          </form>
+        </div>
       </div>
     );
   }

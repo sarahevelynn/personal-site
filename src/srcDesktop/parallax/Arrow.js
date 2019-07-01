@@ -46,7 +46,7 @@ const parallaxData = [
   }
 ];
 
-export default class ArrowTransitionR extends React.Component {
+export default class ArrowTransition extends React.Component {
   render() {
     return (
       <div>

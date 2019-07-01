@@ -94,19 +94,19 @@ input {
   font-size: 3rem;
 }
 
-.dialogBox {
-  padding: 1rem;
-  justify-content: space-around;
-}
-
 .multiItemMove {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: row;
   width: 100%;
   background-color: #eceeed;
   justify-content: space-around;
+}
+
+.dialogBox {
+  padding: 1rem;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-right: 3rem
 }
 
 #list {
@@ -129,10 +129,22 @@ input {
   text-align: center;
   font-weight: 600;
   margin-left: 1rem;
+  font-size: 1.3rem
 }
 
-.headShot {
+#headShot {
   width: 60%;
+  margin-left: 8rem;
+  border-color: white;
+  border-width: medium;
+  border-style: solid;
+  background-color: #06585d;
+  padding: 2rem;
+}
+
+#benniShot {
+  width: 60%;
+  margin: 1rem;
   margin-left: 3rem;
   border-color: white;
   border-width: medium;
@@ -238,4 +250,24 @@ input {
   width: 20%;
   height: auto;
   font-family: SoftLine, sans-serif;
+}
+
+#footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  position: absolute;
+}
+
+#social {
+  margin-left: 10rem
+}
+
+#copy {
+  padding-right: 1rem;
+  margin-left: 20rem
+}
+.socialPhoto {
+  width: 40px;
+  padding-right: 0.5rem;
 }

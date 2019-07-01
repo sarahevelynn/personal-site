@@ -21,8 +21,10 @@ export default class SaveAway extends React.Component {
           SaveAway 401k
         </a>
         <h3 id="workDescription">
-          Click to see a new 401k investing platform made for small busiensses
-          and startups! They are a new company and ready to take customers.
+          Click to see a new 401k investing platform made for small businesses
+          & startups
+          <br />
+          They are a new company & ready to take customers
         </h3>
         <h4 id="workDetails"> React | Node | Express | Knex | PostgreSQL </h4>
       </div>

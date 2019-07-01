@@ -1,7 +1,7 @@
 import React from "react";
 import Plx from "react-plx";
 import benniComp from "../../photoAssets/benniComp.png";
-import ArrowTransitionL from "./ArrowL.js";
+import SEJLogo from "./SEJLogo";
 
 const parallaxData = [
   {
@@ -40,7 +40,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-      <ArrowTransitionL />
+      <SEJLogo />
       <img src={benniComp} id="headerPhoto" alt="SEJ" />
         <Plx parallaxData={parallaxData}>
           <div id="headerText">

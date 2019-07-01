@@ -26,7 +26,7 @@ export default class DPT extends React.Component {
         </a>
         <h3 id="workDescription">
           Click to checkout an amazing physical therapy business offering
-          Functional Manual Therapy (FMT).
+          Functional Manual Therapy (FMT)
         </h3>
         <h4 id="workDetails">
           React | Node | Express | Knex | PostgreSQL | Logo Design | Branding

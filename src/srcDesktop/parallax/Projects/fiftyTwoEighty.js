@@ -25,8 +25,8 @@ export default class startupWeekNav extends React.Component {
           5280 Startup Solutions, LLC
         </a>
         <h3 id="workDescription">
-          Click to browse my company site and see what we are up to and who
-          works with us.
+          Click to browse my company site & see what we are up to & who
+          works with us
         </h3>
         <h4 id="workDetails"> React | Node | Express | Knex | PostgreSQL </h4>
       </div>

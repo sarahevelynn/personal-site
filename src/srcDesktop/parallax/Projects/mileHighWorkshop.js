@@ -14,8 +14,8 @@ export default class MileHighWorkshop extends React.Component {
           Mile High Workshop
         </a>
         <h3 id="workDescription">
-          Click to discover an amazing concious captial company seeking to
-          rebuild people's lives after addiction, homelessness and incarceration.
+          Click to discover an amazing concious capital company seeking to
+          rebuild people's lives after addiction, homelessness & incarceration
         </h3>
         <h4 id="workDetails">
 

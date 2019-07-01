@@ -21,8 +21,8 @@ export default class Tracktivism extends React.Component {
           Tracktivism
         </a>
         <h3 id="workDescription">
-          Click to view an activism tracking app where you can track legislaiton
-          that matters to you and log "Resistance Points".
+          Click to view an activism tracking app where you can track legislation
+          that matters to you & log "Resistance Points"
         </h3>
         <h4 id="workDetails"> React | Node | Express | Knex | PostgreSQL </h4>
       </div>

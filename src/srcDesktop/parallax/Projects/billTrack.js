@@ -22,11 +22,11 @@ export default class BillTrack extends React.Component {
         </a>
         <h3 id="workDescription">
           Click to read my blogs from over the years covering legislative
-          movements, social issues and how to use an amazing legislation and
-          regulation tracking platform.
+          movements, social issues & how to use an amazing legislation &
+          regulation tracking platform
         </h3>
         <h4 id="workDetails">
-          6 Years | 112 Articles | 20,000 Reads | 3.5 Minute Average Time Spent
+          6 Years | 136 Articles | 20,000 Reads | 3.5 Minute Average Time Spent
         </h4>
       </div>
     );

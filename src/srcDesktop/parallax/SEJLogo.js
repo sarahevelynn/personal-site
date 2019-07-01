@@ -35,7 +35,7 @@ const parallaxData = [
   }
 ];
 
-export default class ArrowTransitionL extends React.Component {
+export default class SEJLogo extends React.Component {
   render() {
     return (
       <div id="SEJLogo">

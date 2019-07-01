@@ -21,13 +21,12 @@ export default class BillTrends extends React.Component {
           BillTrack Trending Bills
         </a>
         <h3 id="workDescription">
-          Click to examine the trending 2018 bills from across the
-          country. Use the interactive map of the United States to read brief
-          descriptions and click to read the specifics about the bills.
+          Click to examine the trending 2018 bills from across the country
+          <br />
+          Use the interactive map of the United States to read brief
+          descriptions & click to read the specifics about the bills.
         </h3>
-        <h4 id="workDetails">
-          HTML5 | CSS3 | ES6 | Svidget.io
-        </h4>
+        <h4 id="workDetails">HTML5 | CSS3 | ES6 | Svidget.io</h4>
       </div>
     );
   }

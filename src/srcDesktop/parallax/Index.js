@@ -5,13 +5,12 @@ import WhatIDo from "./WhatIDo";
 import WhatImAbout from "./WhatImAbout";
 import MyWork from "./MyWork";
 import Contact from "./Contact";
+import Footer from "./Footer";
 import summit from "../../photoAssets/summit.jpg";
 import bone from "../../photoAssets/bone.jpg";
 import tetons from "../../photoAssets/tetons.jpg";
 import aspen from "../../photoAssets/aspen.jpg";
-
-import ArrowTransitionL from "./ArrowL";
-import ArrowTransitionR from "./ArrowR";
+import ArrowTransition from "./Arrow";
 
 const parallaxData = [
   {
@@ -54,7 +53,7 @@ export default class ParallaxPractice extends React.Component {
     return (
       <div id="App">
         <Header />
-        <ArrowTransitionR />
+        <ArrowTransition />
         <WhatIDo className="content" />
         <Plx parallaxData={parallaxData}>
           <img src={summit} className="separator" alt="SeJ" />
@@ -64,19 +63,20 @@ export default class ParallaxPractice extends React.Component {
           <img src={bone} className="separator" alt="SeJ" />
         </Plx>
         <Plx parallaxData={parallaxDataA}>
-          <ArrowTransitionR />
+          <ArrowTransition />
         </Plx>
         <MyWork className="content" />
         <Plx parallaxData={parallaxData}>
           <img src={tetons} className="separator" alt="SeJ" />
         </Plx>
         <Plx parallaxData={parallaxDataA}>
-          <ArrowTransitionR />
+          <ArrowTransition />
         </Plx>
         <Contact />
         <Plx parallaxData={parallaxData}>
           <img src={aspen} className="separator" alt="SeJ" />
         </Plx>
+          <Footer />
       </div>
     );
   }

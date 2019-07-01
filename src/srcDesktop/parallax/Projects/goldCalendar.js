@@ -14,8 +14,8 @@ export default class GoldCalendar extends React.Component {
           Gold Calendar
         </a>
         <h3 id="workDescription">
-          Click to explore tool that offers companies in the event industry to
-          streamline their availability through a custom widget.
+          Click to explore tool that offers companies in the event industry the ability to
+          streamline their availability through a custom widget
         </h3>
         <h4 id="workDetails">
 

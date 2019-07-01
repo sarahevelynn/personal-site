@@ -22,20 +22,23 @@ export default class WhatIDo extends React.Component {
             <br />
           </p>
           <p>
-            Graduate of the University of Denver (BS Marketing & Finance)
-            <br /> & Galvanize, a six-month full-stack web immersive program
+            Graduate of:
+            <br /> University of Denver (BS Marketing & Finance)
+            <br />Galvanize (six-month full-stack web immersive program)
             <br />
             <br />
-            Searching of opportunities in the technology world of security
+            + Searching for opportunities in the technology world of security
             penetration
             <br />
-            Extensive experience in a development environment - developing &
+            + Extensive experience in development environments - developing &
             testing applications
             <br />
-            Looking to incorporate my development skills & knack for spotting
-            problems for rewarding & challenging work. Mentorship at my next
-            position is a priority
+            + Looking to incorporate my development skills & knack for spotting
+            problems for rewarding & challenging work
+            <br />
+            + Mentorship at my next position is a priority
           </p>
+          <br />
           <div id="navagateButton">
             <a
               href={SarahEvelynnJohnsonResume}
@@ -46,7 +49,7 @@ export default class WhatIDo extends React.Component {
           </div>
         </div>
         <div>
-          <img src={SeJohnson} class="headShot" alt="SeJ" />
+          <img src={SeJohnson} id="headShot" alt="SeJ" />
         </div>
       </div>
     );

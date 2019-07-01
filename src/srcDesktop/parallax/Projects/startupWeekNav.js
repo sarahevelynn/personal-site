@@ -15,7 +15,7 @@ export default class StartupWeekNav extends React.Component {
           </a>
           <h3 id="workDescription">
             Click to download a video demo of my Startup Week Navigator React
-            Native App aimed at improving event choice and networking for Startup Week Denver.
+            Native App aimed at improving event choice & networking for Startup Week Denver
           </h3>
           <h4 id="workDetails">
 

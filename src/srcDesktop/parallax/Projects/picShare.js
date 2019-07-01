@@ -21,9 +21,12 @@ export default class PicShares extends React.Component {
           PicShare
         </a>
         <h3 id="workDescription">
-          Click to "upload" your images to a new social network, PicShare! Make an account, upload images, see your friend's feed and comment on their work!
+          Click to "upload" your images to a new social network, PicShare
+          <br />
+          Make an account, upload images, see your friends' feed & comment on
+          their work
         </h3>
-        <h4 id="workDetails"> Ruby | Rails | HTML5 | CSS3| ES6  </h4>
+        <h4 id="workDetails"> Ruby | Rails | HTML5 | CSS3| ES6 </h4>
       </div>
     );
   }

@@ -6,7 +6,7 @@ import SeJohnson from "../../photoAssets/SeJohnson.jpg";
 export default class WhatIDo extends React.Component {
   render() {
     return (
-      <div className="multiItemMove">
+      <div className="mobileBox">
         <div className="dialogBox">
           <h2> What I Do </h2>
           <p>I pick up skills quickly - from advice to creation to execution</p>
@@ -18,6 +18,7 @@ export default class WhatIDo extends React.Component {
             + Market Positioning
             <br />
             + Digital Content Creation
+            <br />
             <br />
           </p>
           <p>
@@ -47,7 +48,9 @@ export default class WhatIDo extends React.Component {
             </a>
           </div>
         </div>
-        <img src={SeJohnson} id="headShot" alt="SeJ" />
+        <div>
+          <img src={SeJohnson} id="headShotT" alt="SeJ" />
+        </div>
       </div>
     );
   }

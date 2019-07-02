@@ -10,6 +10,17 @@
 
 #App {
   font-family: DINAlternateRegular, sans-serif;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#AppM {
+  font-family: DINAlternateRegular, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 body {
@@ -31,6 +42,7 @@ h1 {
 
 h2 {
   color: #3f8e93;
+  margin: 0;
   margin-left: 3rem;
   font-size: 3rem;
 }
@@ -60,22 +72,22 @@ input {
   background-color: #e6eeed;
 }
 
-#arrowLeft {
-  width: 5%;
-  margin-left: 40rem;
-  margin-top: 2rem;
+#h1M {
+  color: #074044;
+  font-size: 3.5rem;
+}
+
+#arrow{
   display: flex;
   align-items: center;
-}
-
-#arrowRight {
-  width: 5%;
-  margin-left: 40rem;
+  justify-content: center;
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  width: 5%;
 }
 
-#SEJLogo {}
+#SEJLogo {
+  width: 30%;
+}
 
 #headerPhoto {
   width: 100%;
@@ -97,16 +109,28 @@ input {
 .multiItemMove {
   display: flex;
   flex-direction: row;
+  width: 100vw;
+  background-color: #eceeed;
+  /* justify-content: space-between; */
+  align-items: space-between;
+}
+
+.mobileBox {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: #eceeed;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
 .dialogBox {
   padding: 1rem;
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   margin-left: 3rem;
-  margin-right: 3rem
+  /* margin-right: 3rem; */
 }
 
 #list {
@@ -123,23 +147,47 @@ input {
   display: flex;
   background-color: #84afae;
   height: 3rem;
-  width: 60%;
+  width: 30vw;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-weight: 600;
   margin-left: 1rem;
-  font-size: 1.3rem
+  font-size: 1.3rem;
 }
 
 #headShot {
-  width: 60%;
-  margin-left: 8rem;
+  width: 40%;
+  margin-right: 4rem;
   border-color: white;
   border-width: medium;
   border-style: solid;
   background-color: #06585d;
   padding: 2rem;
+}
+
+#headShotT {
+  width: 30%;
+  margin: 1rem;
+  border-color: white;
+  border-width: medium;
+  border-style: solid;
+  background-color: #06585d;
+  padding: 2rem;
+  margin-left: 18rem
+}
+
+#headShotM {
+  width: 80%;
+  margin: 1rem;
+  border-color: white;
+  border-width: medium;
+  border-style: solid;
+  background-color: #06585d;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #benniShot {
@@ -153,9 +201,42 @@ input {
   padding: 2rem;
 }
 
+#benniShotT {
+  width: 30%;
+  margin: 1rem;
+  margin-left: 3rem;
+  border-color: white;
+  border-width: medium;
+  border-style: solid;
+  background-color: #06585d;
+  padding: 2rem;
+  margin-left: 18rem
+}
+
+#benniShotM {
+  width: 80%;
+  margin: 1rem;
+  border-color: white;
+  border-width: medium;
+  border-style: solid;
+  background-color: #06585d;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .separator {
   width: 100%;
   margin-bottom: -20rem;
+}
+
+.separatorM {
+  width: 100%;
+}
+
+#arrowSeparator {
+  width: 10%;
 }
 
 .content {
@@ -168,6 +249,20 @@ input {
   flex-direction: column;
   padding: 1rem;
   width: 30%;
+}
+
+#projectTile2 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 40%;
+}
+
+#projectTile3 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 80%;
 }
 
 #projectTitle {
@@ -194,6 +289,23 @@ input {
   align-items: center;
 }
 
+.Plx--below {
+  display: flex;
+  justify-content: center;
+}
+
+.Plx {
+  display: flex;
+  justify-content: center;
+}
+
+#mProjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #contactForm {
   display: flex;
   flex-direction: column;
@@ -206,12 +318,39 @@ input {
   background-color: #fbfdfd;
 }
 
+#contactFormM {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 3rem;
+  background-color: #fbfdfd;
+}
+
 #contactHeader {
   display: flex;
 }
 
+#contactInfo {
+  width: 30vw;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.basic-contact-container {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 30vw;
+}
+
 #basicContact {
+  display: flex;
+  flex-flow: row nowrap;
   width: 100%;
+  justify-content: space-between;
 }
 
 #message {
@@ -247,26 +386,36 @@ input {
   padding-top: 0.3em;
   padding-bottom: 0.3em;
   margin: 0.5em;
-  width: 20%;
+  width: 20vw;
   height: auto;
   font-family: SoftLine, sans-serif;
 }
 
-#footer{
+#footer {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  position: absolute;
+}
+
+#footerM {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 #social {
-  margin-left: 10rem
+  margin-left: 10rem;
 }
 
 #copy {
   padding-right: 1rem;
-  margin-left: 20rem
+  margin-left: 20rem;
 }
+
+#copyM {
+  padding-right: 1rem;
+}
+
 .socialPhoto {
   width: 40px;
   padding-right: 0.5rem;

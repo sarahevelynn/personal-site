@@ -48,22 +48,17 @@ export default class Contact extends React.Component {
     return (
       <div>
         <h2 id="contactHeader">Contact Me</h2>
-        <br />
-        <div id="contactForm">
+        <div id="contactFormM">
           <form id="contactInfo" onSubmit={this.sendMessage}>
-            <div className='basic-contact-container'>
-              <div id="basicContact">
-                <label htmlFor="Name">Name:</label>
-                <input type="text" name="Name" />
-              </div>
-              <div id="basicContact">
-                <label htmlFor="Email">Email:</label>
-                <input type="text" name="Email" />
-              </div>
-              <div id="basicContact">
-                <label htmlFor="Subject">Subject:</label>
-                <input type="text" name="Subject" />
-              </div>
+            <div id="basicContact">
+              <label htmlFor="Name">Name:</label>
+              <input type="text" name="Name" />
+              <label htmlFor="Email">Email:</label>
+              <input type="text" name="Email" />
+            </div>
+            <div>
+              <label htmlFor="Subject">Subject:</label>
+              <input type="text" name="Subject" />
             </div>
             <div id="message">
               <label htmlFor="Message">Message:</label>

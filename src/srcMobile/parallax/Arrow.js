@@ -38,7 +38,7 @@ const parallaxData = [
           },
           {
           startValue: -15,
-          endValue: 0,
+          endValue: -5,
           property: "translateY",
           unit: "vh"
         }
@@ -51,7 +51,7 @@ export default class ArrowTransition extends React.Component {
     return (
       <div>
         <Plx parallaxData={parallaxData}>
-        <img src={arrows} id="arrow" alt="arrow" />
+        <img src={arrows} id="arrowLeft" alt="aspen" />
         </Plx>
       </div>
     );

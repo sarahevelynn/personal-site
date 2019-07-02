@@ -49,14 +49,17 @@ export default class Contact extends React.Component {
       <div>
         <h2 id="contactHeader">Contact Me</h2>
         <div id="contactFormM">
-          <form id="contactInfo" onSubmit={this.sendMessage}>
+        <br />
+          <form onSubmit={this.sendMessage}>
             <div id="basicContact">
               <label htmlFor="Name">Name:</label>
               <input type="text" name="Name" />
+            </div>
+            <div id="basicContact">
               <label htmlFor="Email">Email:</label>
               <input type="text" name="Email" />
             </div>
-            <div>
+            <div id="basicContact">
               <label htmlFor="Subject">Subject:</label>
               <input type="text" name="Subject" />
             </div>
@@ -67,16 +70,16 @@ export default class Contact extends React.Component {
             </div>
             <br />
             <div id="loader">
-            {this.state.isLoading === true ? (
-              <Loader
-                type="ThreeDots"
-                color="#22435e"
-                height="50"
-                width="100"
-              />
-            ) : (
-              <p> {this.state.message} </p>
-            )}
+              {this.state.isLoading === true ? (
+                <Loader
+                  type="ThreeDots"
+                  color="#22435e"
+                  height="50"
+                  width="100"
+                />
+              ) : (
+                <p> {this.state.message} </p>
+              )}
             </div>
             <div id="sumbit">
               <input type="submit" id="submitButton" value="Submit" />

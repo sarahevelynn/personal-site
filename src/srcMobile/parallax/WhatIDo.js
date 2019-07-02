@@ -39,7 +39,7 @@ export default class WhatIDo extends React.Component {
             + Mentorship at my next position is a priority
           </p>
           <br />
-          <div id="navagateButton">
+          <div id="navagateButtonM">
             <a
               href={SarahEvelynnJohnsonResume}
               download="SarahEvelynnJohnsonResume"

@@ -156,6 +156,19 @@ input {
   font-size: 1.3rem;
 }
 
+#navagateButtonM {
+  display: flex;
+  background-color: #84afae;
+  height: 3rem;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  margin-left: 1rem;
+  font-size: 1.3rem;
+}
+
 #headShot {
   width: 40%;
   margin-right: 4rem;

@@ -18,27 +18,27 @@ export default class MyWork extends React.Component {
     return (
       <div>
         <h2> My Work </h2>
-        <div id="mProjects">
+        <div className="projects">
           <SaveAway />
           <StartupWeekNav />
         </div>
-        <div id="mProjects">
+        <div className="projects">
           <SocialCloud />
           <FiftyTwoEighty />
         </div>
-        <div id="mProjects">
+        <div className="projects">
           <DPT />
           <BillTrends />
         </div>
-        <div id="mProjects">
+        <div className="projects">
           <Tracktivism />
           <InternConnect />
         </div>
-        <div id="mProjects">
+        <div className="projects">
           <BillTrack />
           <PicShares />
         </div>
-        <div id="mProjects">
+        <div className="projects">
           <GoldCalendar />
           <MileHighWorkshop />
         </div>

@@ -408,6 +408,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  z-index: 1
 }
 
 #footerM {

@@ -12,7 +12,6 @@
   font-family: DINAlternateRegular, sans-serif;
   display: flex;
   flex-direction: column;
-
 }
 
 #AppM {
@@ -21,6 +20,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%
 }
 
 body {
@@ -191,13 +191,13 @@ input {
 }
 
 #headShotM {
-  width: 80%;
+  width: 70%;
   margin: 1rem;
   border-color: white;
   border-width: medium;
   border-style: solid;
   background-color: #06585d;
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -227,7 +227,7 @@ input {
 }
 
 #benniShotM {
-  width: 80%;
+  width: 70%;
   margin: 1rem;
   border-color: white;
   border-width: medium;
@@ -288,6 +288,10 @@ input {
   height: 100%;
 }
 
+#projectIconM {
+  width: 90%;
+}
+
 #workDescription {
   color: #073d3c;
 }
@@ -339,9 +343,9 @@ input {
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  padding: 3rem;
+  padding: 2rem;
   background-color: #fbfdfd;
-  width: 60vh
+  width: 80%
 }
 
 #contactHeader {
@@ -361,10 +365,6 @@ input {
   justify-content: space-between;
 }
 
-#mobilText{
-  font-size: 2rem
-}
-
 #message {
   width: 100%;
 }
@@ -375,7 +375,7 @@ input {
 }
 
 #messageBoxM {
-  width: 80%;
+  width: 95%;
   height: 7rem;
 }
 
@@ -400,6 +400,23 @@ input {
   border-radius: 5px;
   color: white;
   font-size: 1.4rem;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  margin: 0.5em;
+  width: 20vw;
+  height: auto;
+  font-family: SoftLine, sans-serif;
+}
+
+#submitButtonM {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #043c40;
+  border: 2px solid #c1cecd;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
   margin: 0.5em;
@@ -453,4 +470,13 @@ input {
 .socialPhotoT {
   width: 30px;
   padding-right: 0.5rem;
+}
+
+.socialPhotoM {
+  width: 25px;
+  padding-right: 0.5rem;
+}
+
+#mobileCopy {
+  font-size: 0.6rem
 }

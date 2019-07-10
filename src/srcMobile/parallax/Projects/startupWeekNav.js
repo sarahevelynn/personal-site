@@ -8,7 +8,7 @@ export default class StartupWeekNav extends React.Component {
     return (
         <div id="projectTile3">
           <a id="projectTitle" href={startupWeek} download="startupWeek">
-            <img id="projectIcon" src={startupweeknav} alt="Startup Week Nav" />
+            <img id="projectIconM" src={startupweeknav} alt="Startup Week Nav" />
           </a>
           <a id="projectTitle" href={startupWeek} download="startupWeek">
             Startup Week Navigator

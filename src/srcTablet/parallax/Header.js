@@ -42,7 +42,7 @@ export default class Header extends React.Component {
         <img src={benniComp} id="headerPhoto" alt="SEJ" />
         <Plx parallaxData={parallaxData}>
           <div id="headerText">
-            <h1 >
+            <h1 id="h1M">
               Hello,
               <br />
               I'm Sarah Evelynn

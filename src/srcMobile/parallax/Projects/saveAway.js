@@ -11,7 +11,7 @@ export default class SaveAway extends React.Component {
           target="_blank"
           href={"https://saveaway-401k.firebaseapp.com/"}
         >
-          <img id="projectIcon" src={saveAwayLogo} alt="SaveAway 401k" />
+          <img id="projectIconM" src={saveAwayLogo} alt="SaveAway 401k" />
         </a>
         <a
           id="projectTitle"

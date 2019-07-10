@@ -11,7 +11,7 @@ export default class BillTrack extends React.Component {
           target="_blank"
           href={"https://www.billtrack50.com/blog/author/sarah/"}
         >
-          <img id="projectIcon" src={BillTrack50Logo} alt="BillTrack50" />
+          <img id="projectIconM" src={BillTrack50Logo} alt="BillTrack50" />
         </a>
         <a
           id="projectTitle"

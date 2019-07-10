@@ -11,7 +11,7 @@ export default class PicShares extends React.Component {
           target="_blank"
           href={"https://picsharerails.herokuapp.com/"}
         >
-          <img id="projectIcon" src={PicShare} alt="PicShare" />
+          <img id="projectIconMM" src={PicShare} alt="PicShare" />
         </a>
         <a
           id="projectTitle"

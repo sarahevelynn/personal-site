@@ -43,7 +43,6 @@ export default class Header extends React.Component {
         <Plx parallaxData={parallaxData}>
           <div id="headerText">
             <h1 id="h1M">
-              {" "}
               Hello,
               <br />
               I'm Sarah Evelynn

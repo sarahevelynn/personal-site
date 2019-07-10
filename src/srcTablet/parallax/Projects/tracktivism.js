@@ -11,7 +11,7 @@ export default class Tracktivism extends React.Component {
           target="_blank"
           href={"https://tracktivism.herokuapp.com/"}
         >
-          <img id="projectIcon" src={tracktivismLogo} alt="Tracktivism" />
+          <img id="projectIconM" src={tracktivismLogo} alt="Tracktivism" />
         </a>
         <a
           id="projectTitle"

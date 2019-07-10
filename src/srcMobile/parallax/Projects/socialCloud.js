@@ -11,7 +11,7 @@ export default class SocialCloud extends React.Component {
           target="_blank"
           href={"https://social-cloud-trends.firebaseapp.com/"}
         >
-          <img id="projectIcon" src={socialCloudLogo} alt="Social Cloud" />
+          <img id="projectIconM" src={socialCloudLogo} alt="Social Cloud" />
         </a>
         <a
           id="projectTitle"

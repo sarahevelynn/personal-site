@@ -12,7 +12,7 @@ export default class DPT extends React.Component {
           href={"https://www.degrandisphysicaltherapy.com/"}
         >
           <img
-            id="projectIcon"
+            id="projectIconM"
             src={DPTLogo}
             alt="Degrandis Physical Therapy"
           />

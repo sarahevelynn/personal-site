@@ -11,7 +11,7 @@ export default class InternConnect extends React.Component {
           target="_blank"
           href={"https://intern-connect.firebaseapp.com/"}
         >
-          <img id="projectIcon" src={internConnectLogo} alt="Intern Connect" />
+          <img id="projectIconM" src={internConnectLogo} alt="Intern Connect" />
         </a>
         <a
           id="projectTitle"

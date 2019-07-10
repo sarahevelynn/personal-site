@@ -11,7 +11,7 @@ export default class BillTrends extends React.Component {
           target="_blank"
           href={"https://bt50-trends-map.firebaseapp.com/"}
         >
-          <img id="projectIcon" src={billsTrends} alt="BillTrack50" />
+          <img id="projectIconM" src={billsTrends} alt="BillTrack50" />
         </a>
         <a
           id="projectTitle"

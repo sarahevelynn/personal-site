@@ -12,7 +12,7 @@ export default class startupWeekNav extends React.Component {
           href={"http://5280startupsolutions.co/"}
         >
           <img
-            id="projectIcon"
+            id="projectIconM"
             src={startupLogo}
             alt="5280 Startup Solutions, LLC"
           />

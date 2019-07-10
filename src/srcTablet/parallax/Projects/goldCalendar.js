@@ -8,7 +8,7 @@ export default class GoldCalendar extends React.Component {
     return (
       <div id="projectTile2">
         <a id="projectTitle" href={GC} download="GC">
-          <img id="projectIcon" src={GoldCalLogo} alt="Gold Calendar" />
+          <img id="projectIconM" src={GoldCalLogo} alt="Gold Calendar" />
         </a>
         <a id="projectTitle" href={GC} download="GC">
           Gold Calendar

@@ -11,23 +11,23 @@ export default class Footer extends React.Component {
       <div id="footerM">
       <div id="socialM">
           <a href={"mailto:sarah@5280startupsolutions.co"} target="_blank">
-            <img src={email} className="socialPhoto" alt="email us" />
+            <img src={email} className="socialPhotoM" alt="email us" />
           </a>
           <a href={"https://github.com/sarahevelynn"} target="_blank">
-            <img src={github} className="socialPhoto" alt="github" />
+            <img src={github} className="socialPhotoM" alt="github" />
           </a>
           <a
             href={SarahEvelynnJohnsonResume}
             download="SarahEvelynnJohnsonResume"
           >
-            <img src={Resume} className="socialPhoto" alt="Resume" />
+            <img src={Resume} className="socialPhotoM" alt="Resume" />
           </a>
 
           <a href={"https://www.linkedin.com/in/sarahevelynn/"} target="_blank">
-            <img src={linkedIn} className="socialPhoto" alt="linkedIn" />
+            <img src={linkedIn} className="socialPhotoM" alt="linkedIn" />
           </a>
         </div>
-        <p>&copy; 2019, SarahEvelynn Johnson</p>
+        <p id="mobileCopy">&copy; 2019, SarahEvelynn Johnson</p>
       </div>
     );
   }

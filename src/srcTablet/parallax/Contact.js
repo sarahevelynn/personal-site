@@ -49,7 +49,7 @@ export default class Contact extends React.Component {
       <div>
         <h2 id="contactHeader">Contact Me</h2>
         <br />
-        <div id="contactForm">
+        <div id="contactFormM">
           <form onSubmit={this.sendMessage}>
             <div id="basicContact">
               <label htmlFor="Name">Name:</label>
@@ -66,7 +66,7 @@ export default class Contact extends React.Component {
             <div id="message">
               <label htmlFor="Message">Message:</label>
               <br />
-              <input type="text" name="Message" id="messageBox" />
+              <input type="text" name="Message" id="messageBoxM" />
             </div>
             <br />
             <div id="loader">

@@ -9,7 +9,7 @@ export default class Footer extends React.Component {
   render() {
     return (
       <div id="footerM">
-        <div>
+      <div id="socialM">
           <a href={"mailto:sarah@5280startupsolutions.co"} target="_blank">
             <img src={email} className="socialPhoto" alt="email us" />
           </a>

@@ -50,28 +50,26 @@ export default class Contact extends React.Component {
         <h2 id="contactHeader">Contact Me</h2>
         <br />
         <div id="contactForm">
-          <form id="contactInfo" onSubmit={this.sendMessage}>
-            <div className='basic-contact-container'>
-              <div id="basicContact">
-                <label htmlFor="Name">Name:</label>
-                <input type="text" name="Name" />
-              </div>
-              <div id="basicContact">
-                <label htmlFor="Email">Email:</label>
-                <input type="text" name="Email" />
-              </div>
-              <div id="basicContact">
-                <label htmlFor="Subject">Subject:</label>
-                <input type="text" name="Subject" />
-              </div>
-            </div>
-            <div id="message">
-              <label htmlFor="Message">Message:</label>
-              <br />
-              <input type="text" name="Message" id="messageBox" />
-            </div>
+        <form onSubmit={this.sendMessage}>
+          <div id="basicContact">
+            <label htmlFor="Name">Name:</label>
+            <input type="text" name="Name" />
+          </div>
+          <div id="basicContact">
+            <label htmlFor="Email">Email:</label>
+            <input type="text" name="Email" />
+          </div>
+          <div id="basicContact">
+            <label htmlFor="Subject">Subject:</label>
+            <input type="text" name="Subject" />
+          </div>
+          <div id="message">
+            <label htmlFor="Message">Message:</label>
             <br />
-            <div id="loader">
+            <input type="text" name="Message" id="messageBox" />
+          </div>
+          <br />
+          <div id="loader">
             {this.state.isLoading === true ? (
               <Loader
                 type="ThreeDots"
@@ -82,11 +80,11 @@ export default class Contact extends React.Component {
             ) : (
               <p> {this.state.message} </p>
             )}
-            </div>
-            <div id="sumbit">
-              <input type="submit" id="submitButton" value="Submit" />
-            </div>
-          </form>
+          </div>
+          <div id="sumbit">
+            <input type="submit" id="submitButton" value="Submit" />
+          </div>
+        </form>
         </div>
       </div>
     );

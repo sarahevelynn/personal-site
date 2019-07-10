@@ -51,15 +51,15 @@ export default class Contact extends React.Component {
         <br />
         <div id="contactForm">
           <form onSubmit={this.sendMessage}>
-            <div id="basicContactT">
+            <div id="basicContact">
               <label htmlFor="Name">Name:</label>
               <input type="text" name="Name" />
             </div>
-            <div id="basicContactT">
+            <div id="basicContact">
               <label htmlFor="Email">Email:</label>
               <input type="text" name="Email" />
             </div>
-            <div id="basicContactT">
+            <div id="basicContact">
               <label htmlFor="Subject">Subject:</label>
               <input type="text" name="Subject" />
             </div>

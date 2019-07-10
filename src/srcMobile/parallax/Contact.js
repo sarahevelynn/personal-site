@@ -46,20 +46,20 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="contactFormM">
         <h2 id="contactHeader">Contact Me</h2>
-        <div id="contactFormM">
+        <div >
         <br />
           <form onSubmit={this.sendMessage}>
-            <div id="basicContact">
+            <div id="basicContactM">
               <label htmlFor="Name">Name:</label>
               <input type="text" name="Name" />
             </div>
-            <div id="basicContact">
+            <div id="basicContactM">
               <label htmlFor="Email">Email:</label>
               <input type="text" name="Email" />
             </div>
-            <div id="basicContact">
+            <div id="basicContactM">
               <label htmlFor="Subject">Subject:</label>
               <input type="text" name="Subject" />
             </div>

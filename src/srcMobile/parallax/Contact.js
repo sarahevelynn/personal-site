@@ -46,9 +46,9 @@ export default class Contact extends React.Component {
 
   render() {
     return (
-      <div id="contactFormM">
-        <h2 id="contactHeader">Contact Me</h2>
-        <div >
+      <div>
+        <h2 id="contactHeaderM">Contact Me</h2>
+        <div id="contactFormM">
         <br />
           <form onSubmit={this.sendMessage}>
             <div id="basicContactM">

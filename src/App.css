@@ -329,12 +329,11 @@ input {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 1.7rem;
+  font-size: 2rem;
   padding: 3rem;
   margin-left: 10rem;
   margin-right: 10rem;
   background-color: #fbfdfd;
-  width: 80vh
 }
 
 #contactFormM {

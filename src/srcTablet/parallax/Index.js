@@ -23,8 +23,8 @@ export default class ParallaxPractice extends React.Component {
         <img src={bone} className="separatorM" alt="SeJ" />
         <MyWork className="content" />
         <img src={tetons} className="separatorM" alt="SeJ" />
-        <Contact />
-        <img src={aspen} className="separatorM" alt="SeJ" />
+        // <Contact />
+        // <img src={aspen} className="separatorM" alt="SeJ" />
         <Footer />
       </div>
     );

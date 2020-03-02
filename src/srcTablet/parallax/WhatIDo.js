@@ -32,16 +32,16 @@ export default class WhatIDo extends React.Component {
             <br />Galvanize (six-month full-stack web immersive program)
             <br />
             <br />
-            + Searching for opportunities in the technology world of security
-            penetration
-            <br />
-            + Extensive experience in development environments - developing &
-            testing applications
-            <br />
-            + Looking to incorporate my development skills & knack for spotting
-            problems for rewarding & challenging work
-            <br />
-            + Mentorship at my next position is a priority
+            + Searching for opportunities in security
+             penetration & application delivery
+             <br />
+             + Extensive experience in application development - designing, developing &
+             implementation
+             <br />
+             + Looking to incorporate my acute attention to detail, development skills & knack for spotting
+             problems for rewarding & challenging work
+             <br />
+             + Mentorship at my next position is a priority
           </p>
           <br />
           <div id="navagateButton">

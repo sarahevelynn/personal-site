@@ -7,21 +7,22 @@ export default class WhatIDo extends React.Component {
   render() {
     return (
       <div className="mobileBox">
-      <div className="dialogBox">
+        <div className="dialogBox">
           <h2> What I Do </h2>
-          <p>I learn quickly, am committed to high quality work, & am extremely detail oritented.</p>
+          <p>I learn quickly, am committed to high quality work, & am extremely detail oriented.</p>
           <p id="list">
           + Project Design, Implementation, & Management
           <br />
             + Application Development
             <br />
-            + Client Engagement (Application Design, Demos, & Exicution)
+            + Client Engagement (Application Design, Demos, & Execution)
             <br />
             + Research & Writing
             <br />
             + Market Positioning & Branding
             <br />
             + Digital Content Creation
+
             <br />
             <br />
           </p>
@@ -43,7 +44,7 @@ export default class WhatIDo extends React.Component {
             + Mentorship at my next position is a priority
           </p>
           <br />
-          <div id="navagateButtonM">
+          <div id="navagateButton">
             <a
               href={SarahEvelynnJohnsonResume}
               download="SarahEvelynnJohnsonResume"
@@ -53,7 +54,7 @@ export default class WhatIDo extends React.Component {
           </div>
         </div>
         <div>
-          <img src={SeJohnson} id="headShotM" alt="SeJ" />
+          <img src={SeJohnson} id="headShotT" alt="SeJ" />
         </div>
       </div>
     );

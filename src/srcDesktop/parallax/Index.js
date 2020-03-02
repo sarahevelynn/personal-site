@@ -72,10 +72,6 @@ export default class ParallaxPractice extends React.Component {
         <Plx parallaxData={parallaxDataA}>
           <ArrowTransition />
         </Plx>
-        // <Contact />
-        // <Plx parallaxData={parallaxData}>
-        //   <img src={aspen} className="separator" alt="SeJ" />
-        // </Plx>
           <Footer />
       </div>
     );

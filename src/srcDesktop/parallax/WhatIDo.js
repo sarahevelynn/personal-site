@@ -9,20 +9,23 @@ export default class WhatIDo extends React.Component {
       <div className="multiItemMove">
         <div className="dialogBox">
           <h2> What I Do </h2>
-          <p>I learn quickly, am committed to high quality work, & am extremely detail oriented.</p>
+          <p>I am adaptable, a quick learner, committed to high quality work, & extremely detail oriented.</p>
           <p id="list">
-          + Project Design, Implementation, & Management
+          Project Design, Development, & Implementation
           <br />
-            + Application Development
+            + Client Interviews for Issue Definition & Requirements Gathering
             <br />
-            + Client Engagement (Application Design, Demos, & Execution)
+            + Design (stories, wireframes, sprints)
+            <br />
+            + Development (coding, agile workflow, client demos)
+            <br />
+            + Deliverables (presentations, manuals, workbooks)
             <br />
             + Research & Writing
             <br />
             + Market Positioning & Branding
             <br />
             + Digital Content Creation
-
             <br />
           </p>
           <p>
@@ -32,15 +35,15 @@ export default class WhatIDo extends React.Component {
             <br />
             <br />
             + Searching for opportunities in security
-           penetration & application delivery
-           <br />
-           + Extensive experience in application development - designing, developing &
-           implementation
-           <br />
-           + Looking to incorporate my acute attention to detail, development skills & knack for spotting
-           problems for rewarding & challenging work
-           <br />
-           + Mentorship at my next position is a priority
+             penetration & project/application delivery
+             <br />
+             + Experience in end to end application development and delivery - defining issues, gathering requirements, designing applicaitons (wireframes and stories), coding the proejct &
+             implementing and training the solution
+             <br />
+             + Looking to incorporate my acute attention to detail, functional skills, technical fluency, & knack for spotting
+             issues for more rewarding & challenging work
+             <br />
+             + Mentorship at my next position is a priority
           </p>
           <br />
           <div id="navagateButton">

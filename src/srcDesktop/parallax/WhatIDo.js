@@ -45,7 +45,7 @@ export default class WhatIDo extends React.Component {
              <br />
              + Mentorship at my next position is a priority
           </p>
-          <br />
+          <br/>
           <div id="navagateButton">
             <a
               href={SarahEvelynnJohnsonResume}
@@ -55,7 +55,10 @@ export default class WhatIDo extends React.Component {
             </a>
           </div>
         </div>
+        <div className="dialogBox">
         <img src={SeJohnson} id="headShot" alt="SeJ" />
+
+        </div>
       </div>
     );
   }

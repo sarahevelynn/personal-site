@@ -38,8 +38,7 @@ export default class WhatIDo extends React.Component {
             + Searching for opportunities in security
              penetration & project/application delivery
              <br />
-             + Experience in end to end application development and delivery - defining issues, gathering requirements, designing applicaitons (wireframes and stories), coding the proejct &
-             implementing and training the solution
+             + Experience in end to end application development, delivery & team management 
              <br />
              + Looking to incorporate my acute attention to detail, functional skills, technical fluency, & knack for spotting
              issues for more rewarding & challenging work

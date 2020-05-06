@@ -17,7 +17,7 @@ export default class MyWork extends React.Component {
   render() {
     return (
       <div>
-        <h2> Personal Projects </h2>
+        <h2> Projects </h2>
         <div id="mProjects">
           <SaveAway />
           <StartupWeekNav />

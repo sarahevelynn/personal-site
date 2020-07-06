@@ -11,7 +11,7 @@ export default function StickyFooter() {
     <footer id="footerBottom">
       <p id="copy">&copy; 2019, SarahEvelynn Johnson</p>
       <div id="social">
-        <a href={"mailto:sarah@5280startupsolutions.co"} target="_blank">
+        <a href={"mailto:sarahevelynnjohnson@gmail.com"} target="_blank">
           <img src={email} className="socialPhoto" alt="email us" />
         </a>
         <a href={"https://github.com/sarahevelynn"} target="_blank">

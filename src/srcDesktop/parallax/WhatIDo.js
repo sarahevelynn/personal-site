@@ -9,7 +9,7 @@ export default class WhatIDo extends React.Component {
       <div className="multiItemMove">
         <div className="dialogBox">
           <h2> What I Do </h2>
-          <p>I am adaptable, a quick learner, committed to high quality work, & extremely detail oriented.</p>
+          <p>I am a Jill of many trades. Adaptable, a quick learner, committed to high quality work, & extremely detail oriented.</p>
           <p id="list">
           Project Design, Development, & Implementation
           <br />
@@ -19,7 +19,7 @@ export default class WhatIDo extends React.Component {
             <br />
             + Development (coding, agile workflow, client demos)
             <br />
-            + Deliverables (presentations, manuals, workbooks)
+            + Deliverables (design documents, presentations, manuals, workbooks)
             <br />
             + Research & Writing
             <br />
@@ -34,10 +34,9 @@ export default class WhatIDo extends React.Component {
             <br />Galvanize (six-month full-stack web immersive program)
             <br />
             <br />
-            + Searching for opportunities in security
-             penetration & project/application delivery
+            + Searching for opportunities in project/application delivery
              <br />
-             + Experience in end to end application development, delivery & team management 
+             + Experience in end to end application development, delivery & team management
              <br />
              + Looking to incorporate my acute attention to detail, functional skills, technical fluency, & knack for spotting
              issues for more rewarding & challenging work

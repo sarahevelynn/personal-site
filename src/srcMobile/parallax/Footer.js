@@ -27,7 +27,7 @@ export default class Footer extends React.Component {
             <img src={linkedIn} className="socialPhotoM" alt="linkedIn" />
           </a>
         </div>
-        <p id="mobileCopy">&copy; 2019, SarahEvelynn Johnson</p>
+        <p id="mobileCopy">&copy; 2020, SarahEvelynn Johnson</p>
       </div>
     );
   }

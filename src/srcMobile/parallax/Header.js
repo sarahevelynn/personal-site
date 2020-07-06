@@ -26,7 +26,7 @@ const parallaxData = [
     easing: "easeInSine",
     properties: [
       {
-        startValue: 1,a
+        startValue: 1,
         endValue: 0.2,
         property: "opacity",
         unit: ""

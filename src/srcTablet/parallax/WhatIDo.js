@@ -9,9 +9,9 @@ export default class WhatIDo extends React.Component {
       <div className="mobileBox">
         <div className="dialogBox">
           <h2> What I Do </h2>
-          <p>I am a Jill of many trades. Adaptable, a quick learner, committed to high quality work, & extremely detail oriented.</p>
+          <p>I am a Jill of many trades. Adaptable, a quick learner, committed to high quality work & extremely detail oriented.</p>
             <p id="list">
-          Project Design, Development, & Implementation
+          Project Design, Development & Implementation
           <br />
             + Client Interviews for Issue Definition & Requirements Gathering
             <br />

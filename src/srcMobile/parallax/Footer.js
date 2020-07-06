@@ -10,7 +10,7 @@ export default class Footer extends React.Component {
     return (
       <div id="footerM">
       <div id="socialM">
-          <a href={"mailto:sarah@5280startupsolutions.co"} target="_blank">
+          <a href={"mailto:sarahevelynnjohnson@gmail.com"} target="_blank">
             <img src={email} className="socialPhotoM" alt="email us" />
           </a>
           <a href={"https://github.com/sarahevelynn"} target="_blank">

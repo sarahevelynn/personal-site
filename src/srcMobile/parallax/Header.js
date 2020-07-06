@@ -26,7 +26,7 @@ const parallaxData = [
     easing: "easeInSine",
     properties: [
       {
-        startValue: 1,
+        startValue: 1,a
         endValue: 0.2,
         property: "opacity",
         unit: ""
@@ -39,8 +39,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <img src={benniComp} id="headerPhoto" alt="SEJ" />
-        <Plx parallaxData={parallaxData}>
+      <Plx parallaxData={parallaxData}>
           <div id="headerText">
             <h1 id="h1M">
               Hello,

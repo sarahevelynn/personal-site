@@ -39,7 +39,6 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <img src={benniComp} id="headerPhoto" alt="SEJ" />
         <Plx parallaxData={parallaxData}>
           <div id="headerText">
             <h1 id="h1M">
